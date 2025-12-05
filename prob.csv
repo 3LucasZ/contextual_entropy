@@ -1,0 +1,332 @@
+continent,sector,market_cap,probability
+Africa,Communication Services,Large Cap,0.0002441604948319362
+Africa,Communication Services,Mid Cap,8.13868316106454e-05
+Africa,Communication Services,Small Cap,4.06934158053227e-05
+Africa,Consumer Discretionary,Micro Cap,6.782235967553784e-05
+Africa,Consumer Discretionary,Mid Cap,0.00013564471935107567
+Africa,Consumer Discretionary,Small Cap,0.0001627736632212908
+Africa,Consumer Staples,Micro Cap,1.3564471935107566e-05
+Africa,Consumer Staples,Mid Cap,0.00014920919128618324
+Africa,Consumer Staples,Nano Cap,1.3564471935107566e-05
+Africa,Consumer Staples,Small Cap,6.782235967553784e-05
+Africa,Energy,Large Cap,6.782235967553784e-05
+Africa,Energy,Mid Cap,1.3564471935107566e-05
+Africa,Energy,Nano Cap,5.4257887740430265e-05
+Africa,Energy,Small Cap,5.4257887740430265e-05
+Africa,Financials,Large Cap,0.0002441604948319362
+Africa,Financials,Micro Cap,4.06934158053227e-05
+Africa,Financials,Mid Cap,0.0002984183825723665
+Africa,Financials,Nano Cap,1.3564471935107566e-05
+Africa,Financials,Small Cap,6.782235967553784e-05
+Africa,Health Care,Mid Cap,0.00010851577548086053
+Africa,Health Care,Nano Cap,1.3564471935107566e-05
+Africa,Health Care,Small Cap,9.495130354575297e-05
+Africa,Industrials,Micro Cap,9.495130354575297e-05
+Africa,Industrials,Mid Cap,5.4257887740430265e-05
+Africa,Industrials,Nano Cap,2.7128943870215132e-05
+Africa,Industrials,Small Cap,0.00018990260709150593
+Africa,Information Technology,Micro Cap,4.06934158053227e-05
+Africa,Information Technology,Small Cap,1.3564471935107566e-05
+Africa,Materials,Large Cap,0.0002984183825723665
+Africa,Materials,Micro Cap,5.4257887740430265e-05
+Africa,Materials,Mid Cap,0.0002848539106372589
+Africa,Materials,Nano Cap,0.00014920919128618324
+Africa,Materials,Small Cap,0.00042049862998833456
+Africa,Real Estate,Mid Cap,2.7128943870215132e-05
+Asia,Communication Services,Large Cap,0.0016684300480182307
+Asia,Communication Services,Mega Cap,0.0001220802474159681
+Asia,Communication Services,Micro Cap,0.004191421827948238
+Asia,Communication Services,Mid Cap,0.0023737825886438243
+Asia,Communication Services,Nano Cap,0.0035538916469981825
+Asia,Communication Services,Small Cap,0.0038658745015056565
+Asia,Consumer Discretionary,Large Cap,0.0035810205908683975
+Asia,Consumer Discretionary,Mega Cap,0.0003662407422479043
+Asia,Consumer Discretionary,Micro Cap,0.014242695531862944
+Asia,Consumer Discretionary,Mid Cap,0.004896774368573832
+Asia,Consumer Discretionary,Nano Cap,0.013754374542199072
+Asia,Consumer Discretionary,Small Cap,0.01226228262933724
+Asia,Consumer Staples,Large Cap,0.0017905102954341987
+Asia,Consumer Staples,Mega Cap,2.7128943870215132e-05
+Asia,Consumer Staples,Micro Cap,0.006239657090149481
+Asia,Consumer Staples,Mid Cap,0.00301131276959388
+Asia,Consumer Staples,Nano Cap,0.006782235967553783
+Asia,Consumer Staples,Small Cap,0.005615691381134533
+Asia,Energy,Large Cap,0.0006782235967553783
+Asia,Energy,Mega Cap,1.3564471935107566e-05
+Asia,Energy,Micro Cap,0.0013293182496405414
+Asia,Energy,Mid Cap,0.000596836765144733
+Asia,Energy,Nano Cap,0.001437834025121402
+Asia,Energy,Small Cap,0.0012343669460947884
+Asia,Financials,Large Cap,0.0032419087924907084
+Asia,Financials,Mega Cap,9.495130354575297e-05
+Asia,Financials,Micro Cap,0.00557499796532921
+Asia,Financials,Mid Cap,0.0036488429505439355
+Asia,Financials,Nano Cap,0.00942730799489976
+Asia,Financials,Small Cap,0.006117576842733513
+Asia,Health Care,Large Cap,0.002346653644773609
+Asia,Health Care,Micro Cap,0.005886980819836684
+Asia,Health Care,Mid Cap,0.003689536366349258
+Asia,Health Care,Nano Cap,0.004720436233417433
+Asia,Health Care,Small Cap,0.007365508260763409
+Asia,Industrials,Large Cap,0.003282602208296031
+Asia,Industrials,Mega Cap,1.3564471935107566e-05
+Asia,Industrials,Micro Cap,0.01855619760722715
+Asia,Industrials,Mid Cap,0.007880958194297495
+Asia,Industrials,Nano Cap,0.018271343696589892
+Asia,Industrials,Small Cap,0.019641355362035755
+Asia,Information Technology,Large Cap,0.0033368600960364614
+Asia,Information Technology,Mega Cap,0.00017633813515639837
+Asia,Information Technology,Micro Cap,0.01337456932801606
+Asia,Information Technology,Mid Cap,0.005480046661783457
+Asia,Information Technology,Nano Cap,0.010390385502292395
+Asia,Information Technology,Small Cap,0.012248718157402132
+Asia,Materials,Large Cap,0.002482298364124685
+Asia,Materials,Micro Cap,0.010295434198746643
+Asia,Materials,Mid Cap,0.004991725672119585
+Asia,Materials,Nano Cap,0.010458207861967933
+Asia,Materials,Small Cap,0.010973657795502021
+Asia,Real Estate,Large Cap,0.0012072380022245734
+Asia,Real Estate,Micro Cap,0.004706871761482326
+Asia,Real Estate,Mid Cap,0.0025229917799300073
+Asia,Real Estate,Nano Cap,0.003974390276986517
+Asia,Real Estate,Small Cap,0.005140934863405768
+Asia,Utilities,Large Cap,0.0006239657090149481
+Asia,Utilities,Micro Cap,0.001125851170613928
+Asia,Utilities,Mid Cap,0.0015599142725373702
+Asia,Utilities,Nano Cap,0.0005561433493394102
+Asia,Utilities,Small Cap,0.002224573397357641
+Europe,Communication Services,Large Cap,0.0029570548818534494
+Europe,Communication Services,Micro Cap,0.0019668484305905972
+Europe,Communication Services,Mid Cap,0.0034860692873226445
+Europe,Communication Services,Nano Cap,0.0025501207238002224
+Europe,Communication Services,Small Cap,0.0018583326551097365
+Europe,Consumer Discretionary,Large Cap,0.005235886166951521
+Europe,Consumer Discretionary,Mega Cap,0.0001220802474159681
+Europe,Consumer Discretionary,Micro Cap,0.0039201323892460865
+Europe,Consumer Discretionary,Mid Cap,0.004856080952768509
+Europe,Consumer Discretionary,Nano Cap,0.0031198285450747404
+Europe,Consumer Discretionary,Small Cap,0.004910338840508939
+Europe,Consumer Staples,Large Cap,0.003757358726024796
+Europe,Consumer Staples,Mega Cap,0.00021703155096172106
+Europe,Consumer Staples,Micro Cap,0.001722687935758661
+Europe,Consumer Staples,Mid Cap,0.0018583326551097365
+Europe,Consumer Staples,Nano Cap,0.0011801090583543582
+Europe,Consumer Staples,Small Cap,0.002875668050242804
+Europe,Energy,Large Cap,0.002292395757033179
+Europe,Energy,Mega Cap,1.3564471935107566e-05
+Europe,Energy,Micro Cap,0.001939719486720382
+Europe,Energy,Mid Cap,0.0013835761373809717
+Europe,Energy,Nano Cap,0.0013971406093160794
+Europe,Energy,Small Cap,0.0018583326551097365
+Europe,Financials,Large Cap,0.007419766148503839
+Europe,Financials,Mega Cap,1.3564471935107566e-05
+Europe,Financials,Micro Cap,0.002848539106372589
+Europe,Financials,Mid Cap,0.004598355986001465
+Europe,Financials,Nano Cap,0.002875668050242804
+Europe,Financials,Small Cap,0.004801823065028079
+Europe,Health Care,Large Cap,0.004232115243753561
+Europe,Health Care,Mega Cap,0.00027128943870215135
+Europe,Health Care,Micro Cap,0.006877187271099536
+Europe,Health Care,Mid Cap,0.00362171400667372
+Europe,Health Care,Nano Cap,0.004503404682455712
+Europe,Health Care,Small Cap,0.005805593988226039
+Europe,Industrials,Large Cap,0.007514717452049592
+Europe,Industrials,Mega Cap,9.495130354575297e-05
+Europe,Industrials,Micro Cap,0.006307479449825018
+Europe,Industrials,Mid Cap,0.00908819619652207
+Europe,Industrials,Nano Cap,0.0045305336263259275
+Europe,Industrials,Small Cap,0.010010580288109383
+Europe,Information Technology,Large Cap,0.0025229917799300073
+Europe,Information Technology,Mega Cap,0.0001627736632212908
+Europe,Information Technology,Micro Cap,0.006117576842733513
+Europe,Information Technology,Mid Cap,0.0037709231979599035
+Europe,Information Technology,Nano Cap,0.004828952008898294
+Europe,Information Technology,Small Cap,0.00512737039147066
+Europe,Materials,Large Cap,0.004544098098261035
+Europe,Materials,Micro Cap,0.0034182469276471065
+Europe,Materials,Mid Cap,0.003323295624101354
+Europe,Materials,Nano Cap,0.00150565638479694
+Europe,Materials,Small Cap,0.0030520061853992024
+Europe,Real Estate,Large Cap,0.0008681262038468842
+Europe,Real Estate,Micro Cap,0.0018312037112395215
+Europe,Real Estate,Mid Cap,0.0024958628360597923
+Europe,Real Estate,Nano Cap,0.001627736632212908
+Europe,Real Estate,Small Cap,0.0028349746344374814
+Europe,Utilities,Large Cap,0.002604378611540653
+Europe,Utilities,Micro Cap,0.0010987222267437129
+Europe,Utilities,Mid Cap,0.0023737825886438243
+Europe,Utilities,Nano Cap,0.0006917880686904858
+Europe,Utilities,Small Cap,0.0011122866986788204
+North America,Communication Services,Large Cap,0.002726458858956621
+North America,Communication Services,Mega Cap,0.0012343669460947884
+North America,Communication Services,Micro Cap,0.0018040747673693062
+North America,Communication Services,Mid Cap,0.0017091234638235532
+North America,Communication Services,Nano Cap,0.006063318954993082
+North America,Communication Services,Small Cap,0.0024551694202544693
+North America,Consumer Discretionary,Large Cap,0.011719703751932938
+North America,Consumer Discretionary,Mega Cap,0.0006104012370798405
+North America,Consumer Discretionary,Micro Cap,0.002943490409918342
+North America,Consumer Discretionary,Mid Cap,0.005371530886302597
+North America,Consumer Discretionary,Nano Cap,0.006795800439488891
+North America,Consumer Discretionary,Small Cap,0.0045305336263259275
+North America,Consumer Staples,Large Cap,0.0037437942540896885
+North America,Consumer Staples,Mega Cap,0.0005290144054691951
+North America,Consumer Staples,Micro Cap,0.002129622093811888
+North America,Consumer Staples,Mid Cap,0.0017633813515639837
+North America,Consumer Staples,Nano Cap,0.005154499335340875
+North America,Consumer Staples,Small Cap,0.0018990260709150593
+North America,Energy,Large Cap,0.0025772496676704374
+North America,Energy,Mega Cap,0.0002577249667670438
+North America,Energy,Micro Cap,0.0031198285450747404
+North America,Energy,Mid Cap,0.002414476004449147
+North America,Energy,Nano Cap,0.008721955454274165
+North America,Energy,Small Cap,0.00457122704213125
+North America,Financials,Large Cap,0.007894522666232603
+North America,Financials,Mega Cap,0.0013021893057703264
+North America,Financials,Micro Cap,0.018569762079162257
+North America,Financials,Mid Cap,0.007351943788828301
+North America,Financials,Nano Cap,0.03053362632592713
+North America,Financials,Small Cap,0.04005588562437264
+North America,Health Care,Large Cap,0.006212528146279266
+North America,Health Care,Mega Cap,0.0008409972599766691
+North America,Health Care,Micro Cap,0.013862890317679932
+North America,Health Care,Mid Cap,0.005439353245978134
+North America,Health Care,Nano Cap,0.02346653644773609
+North America,Health Care,Small Cap,0.010512465749708363
+North America,Industrials,Large Cap,0.00774531347494642
+North America,Industrials,Mega Cap,4.06934158053227e-05
+North America,Industrials,Micro Cap,0.0041778573560131305
+North America,Industrials,Mid Cap,0.006443124169176094
+North America,Industrials,Nano Cap,0.010173353951330675
+North America,Industrials,Small Cap,0.006321043921760126
+North America,Information Technology,Large Cap,0.008084425273324109
+North America,Information Technology,Mega Cap,0.0013564471935107567
+North America,Information Technology,Micro Cap,0.005276579582756844
+North America,Information Technology,Mid Cap,0.006850058327229321
+North America,Information Technology,Nano Cap,0.01477170993733214
+North America,Information Technology,Small Cap,0.005656384796939855
+North America,Materials,Large Cap,0.002848539106372589
+North America,Materials,Micro Cap,0.013130408833184124
+North America,Materials,Mid Cap,0.0040150836927918395
+North America,Materials,Nano Cap,0.039879547489216245
+North America,Materials,Small Cap,0.007121347765931472
+North America,Real Estate,Large Cap,0.0025772496676704374
+North America,Real Estate,Micro Cap,0.001532785328667155
+North America,Real Estate,Mid Cap,0.003662407422479043
+North America,Real Estate,Nano Cap,0.0021703155096172108
+North America,Real Estate,Small Cap,0.0039336968611811945
+North America,Utilities,Large Cap,0.002631507555410868
+North America,Utilities,Mega Cap,1.3564471935107566e-05
+North America,Utilities,Micro Cap,0.0007324814844958086
+North America,Utilities,Mid Cap,0.0021431865657469953
+North America,Utilities,Nano Cap,0.0009359485635224221
+North America,Utilities,Small Cap,0.0005697078212745178
+Oceania,Communication Services,Large Cap,0.00014920919128618324
+Oceania,Communication Services,Micro Cap,0.0002984183825723665
+Oceania,Communication Services,Mid Cap,0.0002984183825723665
+Oceania,Communication Services,Nano Cap,0.00033911179837768917
+Oceania,Communication Services,Small Cap,0.0002441604948319362
+Oceania,Consumer Discretionary,Large Cap,5.4257887740430265e-05
+Oceania,Consumer Discretionary,Micro Cap,0.0006917880686904858
+Oceania,Consumer Discretionary,Mid Cap,0.0005154499335340876
+Oceania,Consumer Discretionary,Nano Cap,0.00046119204579365725
+Oceania,Consumer Discretionary,Small Cap,0.0008545617319117766
+Oceania,Consumer Staples,Large Cap,8.13868316106454e-05
+Oceania,Consumer Staples,Micro Cap,0.000596836765144733
+Oceania,Consumer Staples,Mid Cap,0.0002441604948319362
+Oceania,Consumer Staples,Nano Cap,0.0007324814844958086
+Oceania,Consumer Staples,Small Cap,0.0004340631019234421
+Oceania,Energy,Large Cap,0.00013564471935107567
+Oceania,Energy,Micro Cap,0.0005290144054691951
+Oceania,Energy,Mid Cap,0.00027128943870215135
+Oceania,Energy,Nano Cap,0.0013564471935107567
+Oceania,Energy,Small Cap,0.00023059602289682862
+Oceania,Financials,Large Cap,0.0009630775073926372
+Oceania,Financials,Micro Cap,0.0009359485635224221
+Oceania,Financials,Mid Cap,0.0005697078212745178
+Oceania,Financials,Nano Cap,0.0008003038441713464
+Oceania,Financials,Small Cap,0.0007596104283660237
+Oceania,Health Care,Large Cap,0.00031198285450747404
+Oceania,Health Care,Micro Cap,0.0014242695531862944
+Oceania,Health Care,Mid Cap,0.00018990260709150593
+Oceania,Health Care,Nano Cap,0.001939719486720382
+Oceania,Health Care,Small Cap,0.0008409972599766691
+Oceania,Industrials,Large Cap,0.0001220802474159681
+Oceania,Industrials,Micro Cap,0.0010851577548086054
+Oceania,Industrials,Mid Cap,0.0005697078212745178
+Oceania,Industrials,Nano Cap,0.0010444643390032826
+Oceania,Industrials,Small Cap,0.000596836765144733
+Oceania,Information Technology,Large Cap,0.00017633813515639837
+Oceania,Information Technology,Micro Cap,0.001125851170613928
+Oceania,Information Technology,Mid Cap,0.00018990260709150593
+Oceania,Information Technology,Nano Cap,0.0015463498006022625
+Oceania,Information Technology,Small Cap,0.0007596104283660237
+Oceania,Materials,Large Cap,0.0008545617319117766
+Oceania,Materials,Micro Cap,0.005140934863405768
+Oceania,Materials,Mid Cap,0.0010308998670681751
+Oceania,Materials,Nano Cap,0.008152247632999647
+Oceania,Materials,Small Cap,0.0020753642060714578
+Oceania,Real Estate,Large Cap,0.00010851577548086053
+Oceania,Real Estate,Micro Cap,0.0002577249667670438
+Oceania,Real Estate,Mid Cap,0.000406934158053227
+Oceania,Real Estate,Nano Cap,0.0002577249667670438
+Oceania,Real Estate,Small Cap,0.0004476275738585497
+Oceania,Utilities,Large Cap,0.00017633813515639837
+Oceania,Utilities,Micro Cap,9.495130354575297e-05
+Oceania,Utilities,Mid Cap,0.00042049862998833456
+Oceania,Utilities,Nano Cap,0.0002577249667670438
+Oceania,Utilities,Small Cap,1.3564471935107566e-05
+South America,Communication Services,Large Cap,8.13868316106454e-05
+South America,Communication Services,Micro Cap,1.3564471935107566e-05
+South America,Communication Services,Mid Cap,0.0001220802474159681
+South America,Communication Services,Nano Cap,8.13868316106454e-05
+South America,Communication Services,Small Cap,0.00023059602289682862
+South America,Consumer Discretionary,Large Cap,0.00010851577548086053
+South America,Consumer Discretionary,Micro Cap,0.00033911179837768917
+South America,Consumer Discretionary,Mid Cap,0.0002034670790266135
+South America,Consumer Discretionary,Nano Cap,0.0004747565177287648
+South America,Consumer Discretionary,Small Cap,0.0005832722932096253
+South America,Consumer Staples,Large Cap,0.0002441604948319362
+South America,Consumer Staples,Micro Cap,0.00017633813515639837
+South America,Consumer Staples,Mid Cap,0.00023059602289682862
+South America,Consumer Staples,Nano Cap,0.00014920919128618324
+South America,Consumer Staples,Small Cap,0.000596836765144733
+South America,Energy,Large Cap,0.0002577249667670438
+South America,Energy,Micro Cap,2.7128943870215132e-05
+South America,Energy,Mid Cap,0.0001627736632212908
+South America,Energy,Nano Cap,4.06934158053227e-05
+South America,Energy,Small Cap,0.00017633813515639837
+South America,Financials,Large Cap,0.0007324814844958086
+South America,Financials,Micro Cap,0.0005561433493394102
+South America,Financials,Mid Cap,0.0038251810857003335
+South America,Financials,Nano Cap,0.00017633813515639837
+South America,Financials,Small Cap,0.0005290144054691951
+South America,Health Care,Large Cap,2.7128943870215132e-05
+South America,Health Care,Micro Cap,9.495130354575297e-05
+South America,Health Care,Mid Cap,0.00010851577548086053
+South America,Health Care,Nano Cap,9.495130354575297e-05
+South America,Health Care,Small Cap,0.0001220802474159681
+South America,Industrials,Large Cap,6.782235967553784e-05
+South America,Industrials,Micro Cap,0.0005018854615989799
+South America,Industrials,Mid Cap,0.0003662407422479043
+South America,Industrials,Nano Cap,0.00031198285450747404
+South America,Industrials,Small Cap,0.000596836765144733
+South America,Information Technology,Large Cap,1.3564471935107566e-05
+South America,Information Technology,Micro Cap,8.13868316106454e-05
+South America,Information Technology,Mid Cap,6.782235967553784e-05
+South America,Information Technology,Nano Cap,2.7128943870215132e-05
+South America,Information Technology,Small Cap,0.00013564471935107567
+South America,Materials,Large Cap,0.0006782235967553783
+South America,Materials,Micro Cap,0.00018990260709150593
+South America,Materials,Mid Cap,0.00042049862998833456
+South America,Materials,Nano Cap,0.0003662407422479043
+South America,Materials,Small Cap,0.0004747565177287648
+South America,Real Estate,Micro Cap,0.0004476275738585497
+South America,Real Estate,Mid Cap,4.06934158053227e-05
+South America,Real Estate,Nano Cap,0.0006104012370798405
+South America,Real Estate,Small Cap,0.00042049862998833456
+South America,Utilities,Large Cap,0.00023059602289682862
+South America,Utilities,Micro Cap,0.00021703155096172106
+South America,Utilities,Mid Cap,0.000813868316106454
+South America,Utilities,Nano Cap,5.4257887740430265e-05
+South America,Utilities,Small Cap,0.0006917880686904858
