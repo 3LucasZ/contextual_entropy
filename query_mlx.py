@@ -12,7 +12,7 @@ no_id = tokenizer.encode("No")[0]
 
 def get_llm_entropy(prompt, verbose=False):
     messages = [
-        {"role": "system", "content": "You are a professional stock analyst and trader. Answer queries with Yes or No."},
+        {"role": "system", "content": "You are a professional stock analyst and trader. Answer Yes or No."},
         {"role": "user", "content": prompt}
     ]
     prompt = tokenizer.apply_chat_template(
@@ -36,6 +36,11 @@ def get_llm_entropy(prompt, verbose=False):
         entropy = -(p_yes * np.log2(p_yes) + p_no * np.log2(p_no))
     if verbose:
         print(f"P(Yes): {p_yes:.2%}, P(No): {p_no:.2%}, H: {entropy:.4f}")
+    # safety check
+    if verbose:
+        inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+        outputs = model.generate(**inputs, max_new_tokens=10)
+        print(tokenizer.decode(outputs[0]))
     return entropy
 
 
