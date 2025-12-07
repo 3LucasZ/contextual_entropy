@@ -42,19 +42,3 @@ def get_llm_entropy(prompt, verbose=False):
         outputs = model.generate(**inputs, max_new_tokens=10)
         print(tokenizer.decode(outputs[0]))
     return entropy
-
-
-if __name__ == "__main__":
-    # Obvious answer
-    print("Entropy:", get_llm_entropy("Is the earth flat?"))
-    # Confusing answer
-    print("Entropy:", get_llm_entropy(
-        "Will a coin flip land on heads?"))
-    # Investing answer
-    print("Entropy:", get_llm_entropy("Will Tesla stock go up?"))
-    print("Entropy:", get_llm_entropy("Will Apple stock go up?"))
-    print("Entropy:", get_llm_entropy("Will Google stock go up?"))
-    print("Entropy:", get_llm_entropy(
-        "Will Google stock go up? Answer Yes or No."))
-    print("Entropy:", get_llm_entropy(
-        "Will Google stock go up? Answer No or Yes."))
