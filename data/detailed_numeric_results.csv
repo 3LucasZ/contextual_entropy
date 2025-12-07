@@ -1,0 +1,518 @@
+Trial,Prompt,Expected_Score,Entropy,Reply
+[],The stock is unknown.,62.317284978794966,4.104980903426834,50
+['continent'],The stock is in Africa.,62.16320194178784,5.016695258117536,85
+['continent'],The stock is in Asia.,73.0461878681097,4.596075014644029,85
+['continent'],The stock is in Europe.,71.89445423223707,4.701335806457004,85
+['continent'],The stock is in North America.,75.13269344083835,4.419310003700728,85
+['continent'],The stock is in Oceania.,71.84659331790876,4.667438873783697,85
+['continent'],The stock is in South America.,68.67224873978745,4.772144582377773,85
+['market_cap'],The stock is a Large Cap company.,74.31928049695907,4.125223612763,85
+['market_cap'],The stock is a Mega Cap company.,77.83634160785708,3.909857555274774,85
+['market_cap'],The stock is a Micro Cap company.,41.47371092149811,5.189543747684987,20
+['market_cap'],The stock is a Mid Cap company.,66.75799487622432,4.822578853484902,60
+['market_cap'],The stock is a Nano Cap company.,33.96814720275589,5.048208619307507,20
+['market_cap'],The stock is a Small Cap company.,57.52311301668026,5.317182849878981,75
+['sector'],The stock is in the Communication Services sector.,75.50108381431698,4.537010638775742,85
+['sector'],The stock is in the Consumer Discretionary sector.,73.99978898966987,4.611944604738715,85
+['sector'],The stock is in the Consumer Staples sector.,76.68041452811026,4.168507410150352,85
+['sector'],The stock is in the Energy sector.,75.35024012226044,4.368926983729708,85
+['sector'],The stock is in the Financials sector.,71.70865410312503,4.729065979546946,85
+['sector'],The stock is in the Health Care sector.,78.08486079072614,4.087437639869175,85
+['sector'],The stock is in the Industrials sector.,72.33525947859874,4.694530220378442,85
+['sector'],The stock is in the Information Technology sector.,78.15816759499879,4.104584641079317,85
+['sector'],The stock is in the Materials sector.,72.54456579782648,4.686650342923348,85
+['sector'],The stock is in the Real Estate sector.,71.77571914622328,4.671063767910713,85
+['sector'],The stock is in the Utilities sector.,70.65400936941177,4.792223803876848,85
+"['continent', 'market_cap']",The stock is in Africa and is a Large Cap company.,71.92131526963578,4.458745876829407,85
+"['continent', 'market_cap']",The stock is in Africa and is a Micro Cap company.,41.13602740977978,5.075938152663334,20
+"['continent', 'market_cap']",The stock is in Africa and is a Mid Cap company.,63.299020747205944,5.024676031718239,60
+"['continent', 'market_cap']",The stock is in Africa and is a Nano Cap company.,28.225309007846647,4.47273097423427,20
+"['continent', 'market_cap']",The stock is in Africa and is a Small Cap company.,54.820433490555125,5.240595777267468,60
+"['continent', 'market_cap']",The stock is in Asia and is a Large Cap company.,75.24396001516104,4.300590201186012,85
+"['continent', 'market_cap']",The stock is in Asia and is a Mega Cap company.,75.41477149920192,4.359254539365506,85
+"['continent', 'market_cap']",The stock is in Asia and is a Micro Cap company.,45.70782035578078,5.403320460777009,20
+"['continent', 'market_cap']",The stock is in Asia and is a Mid Cap company.,68.49070963540301,4.831672133011026,75
+"['continent', 'market_cap']",The stock is in Asia and is a Nano Cap company.,33.29180099737767,5.044370982228925,20
+"['continent', 'market_cap']",The stock is in Asia and is a Small Cap company.,60.424167410020324,5.267379417074169,85
+"['continent', 'market_cap']",The stock is in Europe and is a Large Cap company.,74.97520456630905,4.316820302035988,85
+"['continent', 'market_cap']",The stock is in Europe and is a Mega Cap company.,75.97848807319778,4.243187891780278,85
+"['continent', 'market_cap']",The stock is in Europe and is a Micro Cap company.,44.69459905387372,5.391693289266071,20
+"['continent', 'market_cap']",The stock is in Europe and is a Mid Cap company.,68.62194990686254,4.83019127643963,72
+"['continent', 'market_cap']",The stock is in Europe and is a Nano Cap company.,32.2610998770993,5.072565217705563,20
+"['continent', 'market_cap']",The stock is in Europe and is a Small Cap company.,59.64781085357388,5.308390522080191,75
+"['continent', 'market_cap']",The stock is in North America and is a Large Cap company.,75.98532780024796,4.24258054166096,85
+"['continent', 'market_cap']",The stock is in North America and is a Mega Cap company.,78.97224070645436,3.904428217843234,85
+"['continent', 'market_cap']",The stock is in North America and is a Micro Cap company.,47.91852143253662,5.56137418420688,20
+"['continent', 'market_cap']",The stock is in North America and is a Mid Cap company.,70.82422681571893,4.658780427448905,72
+"['continent', 'market_cap']",The stock is in North America and is a Nano Cap company.,35.8737382497605,5.37887993338596,20
+"['continent', 'market_cap']",The stock is in North America and is a Small Cap company.,65.92673477837349,5.1233984023767905,85
+"['continent', 'market_cap']",The stock is in Oceania and is a Large Cap company.,73.87861499937858,4.443315248184529,85
+"['continent', 'market_cap']",The stock is in Oceania and is a Micro Cap company.,47.76161894514282,5.415152109487633,20
+"['continent', 'market_cap']",The stock is in Oceania and is a Mid Cap company.,67.94431439412908,4.888945218173245,85
+"['continent', 'market_cap']",The stock is in Oceania and is a Nano Cap company.,34.4995495867068,5.081134194250588,20
+"['continent', 'market_cap']",The stock is in Oceania and is a Small Cap company.,63.667596371191955,5.135835526151265,85
+"['continent', 'market_cap']",The stock is in South America and is a Large Cap company.,72.99172629652804,4.388516442477077,85
+"['continent', 'market_cap']",The stock is in South America and is a Micro Cap company.,43.48043154079219,5.17529441923784,20
+"['continent', 'market_cap']",The stock is in South America and is a Mid Cap company.,65.89564981138476,4.95156165513135,85
+"['continent', 'market_cap']",The stock is in South America and is a Nano Cap company.,32.01480498068544,4.645208075066874,20
+"['continent', 'market_cap']",The stock is in South America and is a Small Cap company.,60.18495006866592,5.154502531249289,85
+"['continent', 'sector']",The stock is in Africa and is in the Communication Services sector.,69.90797681419009,4.8290938132232775,85
+"['continent', 'sector']",The stock is in Africa and is in the Consumer Discretionary sector.,69.07002698155821,4.803514110667291,85
+"['continent', 'sector']",The stock is in Africa and is in the Consumer Staples sector.,73.33497275158247,4.398566620354898,85
+"['continent', 'sector']",The stock is in Africa and is in the Energy sector.,73.39898316274846,4.465908756554741,85
+"['continent', 'sector']",The stock is in Africa and is in the Financials sector.,64.066263708101,5.06405670058686,85
+"['continent', 'sector']",The stock is in Africa and is in the Health Care sector.,74.38898993900239,4.343104352926737,85
+"['continent', 'sector']",The stock is in Africa and is in the Industrials sector.,66.63149470139027,4.947867356319087,85
+"['continent', 'sector']",The stock is in Africa and is in the Information Technology sector.,73.8396744318366,4.446484282349912,85
+"['continent', 'sector']",The stock is in Africa and is in the Materials sector.,67.30199867960238,4.937939546596276,85
+"['continent', 'sector']",The stock is in Africa and is in the Real Estate sector.,68.67102032440286,4.726225214507636,85
+"['continent', 'sector']",The stock is in Asia and is in the Communication Services sector.,74.92026638988206,4.49828169784962,85
+"['continent', 'sector']",The stock is in Asia and is in the Consumer Discretionary sector.,74.51394430249812,4.451149934990734,85
+"['continent', 'sector']",The stock is in Asia and is in the Consumer Staples sector.,76.64551492921485,4.162092998276758,85
+"['continent', 'sector']",The stock is in Asia and is in the Energy sector.,74.88840882639761,4.426038713954601,85
+"['continent', 'sector']",The stock is in Asia and is in the Financials sector.,72.09411070584838,4.681239549661988,85
+"['continent', 'sector']",The stock is in Asia and is in the Health Care sector.,77.126852457817,4.1572155537513416,85
+"['continent', 'sector']",The stock is in Asia and is in the Industrials sector.,72.66803572395293,4.6068690315005405,85
+"['continent', 'sector']",The stock is in Asia and is in the Information Technology sector.,77.34988044651485,4.151792508126002,85
+"['continent', 'sector']",The stock is in Asia and is in the Materials sector.,72.98970930431825,4.620519295686983,85
+"['continent', 'sector']",The stock is in Asia and is in the Real Estate sector.,71.76684518994531,4.667978409754756,85
+"['continent', 'sector']",The stock is in Asia and is in the Utilities sector.,70.52066164299616,4.758602974020225,85
+"['continent', 'sector']",The stock is in Europe and is in the Communication Services sector.,74.82435257947765,4.523940511286415,85
+"['continent', 'sector']",The stock is in Europe and is in the Consumer Discretionary sector.,74.00468124530077,4.512469204374764,85
+"['continent', 'sector']",The stock is in Europe and is in the Consumer Staples sector.,77.05767622458858,4.097571117151807,85
+"['continent', 'sector']",The stock is in Europe and is in the Energy sector.,74.0940339254721,4.503366157355813,85
+"['continent', 'sector']",The stock is in Europe and is in the Financials sector.,71.69913485229344,4.714161345467324,85
+"['continent', 'sector']",The stock is in Europe and is in the Health Care sector.,77.88006525886044,4.035479981564183,85
+"['continent', 'sector']",The stock is in Europe and is in the Industrials sector.,72.81726264317007,4.588553357674734,85
+"['continent', 'sector']",The stock is in Europe and is in the Information Technology sector.,77.98831389711536,4.066811839230274,85
+"['continent', 'sector']",The stock is in Europe and is in the Materials sector.,73.05725739303341,4.629029138198186,85
+"['continent', 'sector']",The stock is in Europe and is in the Real Estate sector.,69.9066082929163,4.790925760156968,85
+"['continent', 'sector']",The stock is in Europe and is in the Utilities sector.,70.23804828811826,4.7679716478564265,85
+"['continent', 'sector']",The stock is in North America and is in the Communication Services sector.,78.10196878338628,4.12164718545261,85
+"['continent', 'sector']",The stock is in North America and is in the Consumer Discretionary sector.,76.89781437430628,4.185561423261164,85
+"['continent', 'sector']",The stock is in North America and is in the Consumer Staples sector.,78.3920399680623,3.884506297846597,85
+"['continent', 'sector']",The stock is in North America and is in the Energy sector.,78.05710289395506,4.025840366527541,85
+"['continent', 'sector']",The stock is in North America and is in the Financials sector.,74.6150177967324,4.464347990072341,85
+"['continent', 'sector']",The stock is in North America and is in the Health Care sector.,79.03628555899537,3.8887068985985622,85
+"['continent', 'sector']",The stock is in North America and is in the Industrials sector.,75.24572076829598,4.364046762383655,85
+"['continent', 'sector']",The stock is in North America and is in the Information Technology sector.,79.32857441634661,3.8622375809193703,85
+"['continent', 'sector']",The stock is in North America and is in the Materials sector.,75.7141118318055,4.355400689220999,85
+"['continent', 'sector']",The stock is in North America and is in the Real Estate sector.,74.65781164190226,4.388686242994759,85
+"['continent', 'sector']",The stock is in North America and is in the Utilities sector.,72.36598225596659,4.608016857145623,85
+"['continent', 'sector']",The stock is in Oceania and is in the Communication Services sector.,73.58837098873177,4.570190347274395,85
+"['continent', 'sector']",The stock is in Oceania and is in the Consumer Discretionary sector.,74.22425109933108,4.481988617514339,85
+"['continent', 'sector']",The stock is in Oceania and is in the Consumer Staples sector.,75.4027712190069,4.240255696640232,85
+"['continent', 'sector']",The stock is in Oceania and is in the Energy sector.,74.45855200705017,4.393722011490896,85
+"['continent', 'sector']",The stock is in Oceania and is in the Financials sector.,70.18183592606461,4.793182299493833,85
+"['continent', 'sector']",The stock is in Oceania and is in the Health Care sector.,75.59931050185894,4.27371009449619,85
+"['continent', 'sector']",The stock is in Oceania and is in the Industrials sector.,72.30068714905495,4.637872236099566,85
+"['continent', 'sector']",The stock is in Oceania and is in the Information Technology sector.,75.77358626668838,4.301931518388597,85
+"['continent', 'sector']",The stock is in Oceania and is in the Materials sector.,71.8771873779991,4.654491694180088,85
+"['continent', 'sector']",The stock is in Oceania and is in the Real Estate sector.,72.78091924628669,4.511527013916011,85
+"['continent', 'sector']",The stock is in Oceania and is in the Utilities sector.,69.37186020663322,4.785973270492161,85
+"['continent', 'sector']",The stock is in South America and is in the Communication Services sector.,73.12249916933003,4.553528470518763,85
+"['continent', 'sector']",The stock is in South America and is in the Consumer Discretionary sector.,73.27762709344061,4.506331615830654,85
+"['continent', 'sector']",The stock is in South America and is in the Consumer Staples sector.,75.88867578494799,4.108321614122191,85
+"['continent', 'sector']",The stock is in South America and is in the Energy sector.,76.06210869509195,4.205863519106733,85
+"['continent', 'sector']",The stock is in South America and is in the Financials sector.,67.93511413649287,4.8625330431098535,85
+"['continent', 'sector']",The stock is in South America and is in the Health Care sector.,75.54324454064273,4.23255763811709,85
+"['continent', 'sector']",The stock is in South America and is in the Industrials sector.,70.87792467488337,4.685550991392152,85
+"['continent', 'sector']",The stock is in South America and is in the Information Technology sector.,75.52243179101377,4.273379418308689,85
+"['continent', 'sector']",The stock is in South America and is in the Materials sector.,71.57121290625136,4.659422701564392,85
+"['continent', 'sector']",The stock is in South America and is in the Real Estate sector.,71.22153031930559,4.575535565195857,85
+"['continent', 'sector']",The stock is in South America and is in the Utilities sector.,69.47765303199378,4.752834790466416,85
+"['market_cap', 'sector']",The stock is a Large Cap company and is in the Communication Services sector.,78.55709801243871,3.821736915748263,85
+"['market_cap', 'sector']",The stock is a Large Cap company and is in the Consumer Discretionary sector.,76.8902207791721,4.0425365598971625,85
+"['market_cap', 'sector']",The stock is a Large Cap company and is in the Consumer Staples sector.,78.08391684340293,3.6554711328617198,85
+"['market_cap', 'sector']",The stock is a Large Cap company and is in the Energy sector.,73.30721628939656,4.32362765328005,85
+"['market_cap', 'sector']",The stock is a Large Cap company and is in the Financials sector.,71.66409871341584,4.501051372741265,85
+"['market_cap', 'sector']",The stock is a Large Cap company and is in the Health Care sector.,79.18522914529737,3.695512149812464,85
+"['market_cap', 'sector']",The stock is a Large Cap company and is in the Industrials sector.,74.52381622872068,4.251506382787456,85
+"['market_cap', 'sector']",The stock is a Large Cap company and is in the Information Technology sector.,80.32116709244276,3.5041242980063005,85
+"['market_cap', 'sector']",The stock is a Large Cap company and is in the Materials sector.,73.92424792593874,4.3849387637194,85
+"['market_cap', 'sector']",The stock is a Large Cap company and is in the Real Estate sector.,71.02543562070521,4.473750256863404,85
+"['market_cap', 'sector']",The stock is a Large Cap company and is in the Utilities sector.,67.84176760155297,4.605134313027484,85
+"['market_cap', 'sector']",The stock is a Mega Cap company and is in the Communication Services sector.,80.40469920405569,3.709517986518989,85
+"['market_cap', 'sector']",The stock is a Mega Cap company and is in the Consumer Discretionary sector.,78.7119065171058,3.9156646678072495,85
+"['market_cap', 'sector']",The stock is a Mega Cap company and is in the Consumer Staples sector.,78.88892088914304,3.681446619823396,85
+"['market_cap', 'sector']",The stock is a Mega Cap company and is in the Energy sector.,67.52002061163745,4.811832528722454,85
+"['market_cap', 'sector']",The stock is a Mega Cap company and is in the Financials sector.,70.8886281886789,4.623908397116984,85
+"['market_cap', 'sector']",The stock is a Mega Cap company and is in the Health Care sector.,81.47468436073119,3.501350303624884,85
+"['market_cap', 'sector']",The stock is a Mega Cap company and is in the Industrials sector.,75.44913135099883,4.250834527487586,85
+"['market_cap', 'sector']",The stock is a Mega Cap company and is in the Information Technology sector.,81.5010492195925,3.4620934155431895,85
+"['market_cap', 'sector']",The stock is a Mega Cap company and is in the Utilities sector.,67.98832036011974,4.693881053244443,85
+"['market_cap', 'sector']",The stock is a Micro Cap company and is in the Communication Services sector.,53.00812964367016,5.543845483005371,85
+"['market_cap', 'sector']",The stock is a Micro Cap company and is in the Consumer Discretionary sector.,45.90405050105891,5.49647261029937,20
+"['market_cap', 'sector']",The stock is a Micro Cap company and is in the Consumer Staples sector.,52.43700056268115,5.343507142025728,85
+"['market_cap', 'sector']",The stock is a Micro Cap company and is in the Energy sector.,52.136613101674776,5.371895638167241,85
+"['market_cap', 'sector']",The stock is a Micro Cap company and is in the Financials sector.,42.40975566119304,5.425694200278326,20
+"['market_cap', 'sector']",The stock is a Micro Cap company and is in the Health Care sector.,55.92381619790232,5.409161727149883,85
+"['market_cap', 'sector']",The stock is a Micro Cap company and is in the Industrials sector.,45.888466415590706,5.450368047394509,20
+"['market_cap', 'sector']",The stock is a Micro Cap company and is in the Information Technology sector.,55.24730381669895,5.415969390036297,85
+"['market_cap', 'sector']",The stock is a Micro Cap company and is in the Materials sector.,45.87005550363157,5.445369733340641,20
+"['market_cap', 'sector']",The stock is a Micro Cap company and is in the Real Estate sector.,42.07281440739698,5.300578800698143,20
+"['market_cap', 'sector']",The stock is a Micro Cap company and is in the Utilities sector.,44.865151170766794,5.331670070552304,20
+"['market_cap', 'sector']",The stock is a Mid Cap company and is in the Communication Services sector.,73.24998309150901,4.577446838991798,85
+"['market_cap', 'sector']",The stock is a Mid Cap company and is in the Consumer Discretionary sector.,71.19784043802198,4.688215982736865,85
+"['market_cap', 'sector']",The stock is a Mid Cap company and is in the Consumer Staples sector.,73.83574805727146,4.344218799958265,85
+"['market_cap', 'sector']",The stock is a Mid Cap company and is in the Energy sector.,72.01741862991388,4.626487271862537,85
+"['market_cap', 'sector']",The stock is a Mid Cap company and is in the Financials sector.,66.96894781634929,4.967331692200044,72
+"['market_cap', 'sector']",The stock is a Mid Cap company and is in the Health Care sector.,76.09067080181536,4.201792215346184,85
+"['market_cap', 'sector']",The stock is a Mid Cap company and is in the Industrials sector.,69.04840410494585,4.813487749480677,72
+"['market_cap', 'sector']",The stock is a Mid Cap company and is in the Information Technology sector.,76.05687657974255,4.219701089939627,85
+"['market_cap', 'sector']",The stock is a Mid Cap company and is in the Materials sector.,69.52281002695612,4.837244112217655,85
+"['market_cap', 'sector']",The stock is a Mid Cap company and is in the Real Estate sector.,68.05854678928937,4.835438443353082,75
+"['market_cap', 'sector']",The stock is a Mid Cap company and is in the Utilities sector.,68.07993540095752,4.842480729009843,85
+"['market_cap', 'sector']",The stock is a Nano Cap company and is in the Communication Services sector.,41.89913424588539,5.624890872410851,20
+"['market_cap', 'sector']",The stock is a Nano Cap company and is in the Consumer Discretionary sector.,35.8203327239849,5.363874140420382,20
+"['market_cap', 'sector']",The stock is a Nano Cap company and is in the Consumer Staples sector.,41.873817111417836,5.343932175875318,20
+"['market_cap', 'sector']",The stock is a Nano Cap company and is in the Energy sector.,40.13293975254303,5.3089396797801465,20
+"['market_cap', 'sector']",The stock is a Nano Cap company and is in the Financials sector.,35.071523366559575,5.330767667543958,20
+"['market_cap', 'sector']",The stock is a Nano Cap company and is in the Health Care sector.,43.862603123372494,5.535753861655135,20
+"['market_cap', 'sector']",The stock is a Nano Cap company and is in the Industrials sector.,38.523372225213514,5.430479392533099,20
+"['market_cap', 'sector']",The stock is a Nano Cap company and is in the Information Technology sector.,42.53538955767515,5.518108196251034,20
+"['market_cap', 'sector']",The stock is a Nano Cap company and is in the Materials sector.,38.46258768272399,5.394929429497127,20
+"['market_cap', 'sector']",The stock is a Nano Cap company and is in the Real Estate sector.,33.62962844572951,5.090612167160209,20
+"['market_cap', 'sector']",The stock is a Nano Cap company and is in the Utilities sector.,37.729665500090846,5.248376302498859,20
+"['market_cap', 'sector']",The stock is a Small Cap company and is in the Communication Services sector.,68.99730223455411,4.979814715785908,85
+"['market_cap', 'sector']",The stock is a Small Cap company and is in the Consumer Discretionary sector.,65.66099335275865,5.143607049462798,85
+"['market_cap', 'sector']",The stock is a Small Cap company and is in the Consumer Staples sector.,69.95207639134419,4.669502221407621,85
+"['market_cap', 'sector']",The stock is a Small Cap company and is in the Energy sector.,70.61508322729419,4.728266213134405,85
+"['market_cap', 'sector']",The stock is a Small Cap company and is in the Financials sector.,59.170362713595196,5.363403158411314,85
+"['market_cap', 'sector']",The stock is a Small Cap company and is in the Health Care sector.,72.505714444976,4.637719817448437,85
+"['market_cap', 'sector']",The stock is a Small Cap company and is in the Industrials sector.,62.50953320525741,5.227733858306376,85
+"['market_cap', 'sector']",The stock is a Small Cap company and is in the Information Technology sector.,73.41724278435525,4.564781938832094,85
+"['market_cap', 'sector']",The stock is a Small Cap company and is in the Materials sector.,63.2239199300211,5.233155257352172,85
+"['market_cap', 'sector']",The stock is a Small Cap company and is in the Real Estate sector.,60.94618774418303,5.240763455876345,85
+"['market_cap', 'sector']",The stock is a Small Cap company and is in the Utilities sector.,59.98606097855821,5.204851607694099,85
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Large Cap company and is in the Communication Services sector.,74.0968879123821,4.459836448079767,85
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Large Cap company and is in the Energy sector.,75.91737506797729,4.153550918834689,85
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Large Cap company and is in the Financials sector.,72.10798199379313,4.539803126637772,85
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Large Cap company and is in the Materials sector.,73.19684947508527,4.514038223273124,85
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Micro Cap company and is in the Consumer Discretionary sector.,45.02930705373698,5.408858673854722,20
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Micro Cap company and is in the Consumer Staples sector.,51.69560581424596,5.406762528051551,85
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Micro Cap company and is in the Financials sector.,41.9550598032086,5.352516543908222,20
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Micro Cap company and is in the Industrials sector.,46.06341161713833,5.419616627506388,20
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Micro Cap company and is in the Information Technology sector.,49.56777099481831,5.504847806283399,20
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Micro Cap company and is in the Materials sector.,43.68650955785891,5.431393539408743,20
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Mid Cap company and is in the Communication Services sector.,67.58802247315545,5.000519765986124,85
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Mid Cap company and is in the Consumer Discretionary sector.,67.28817339170537,4.952574616744116,85
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Mid Cap company and is in the Consumer Staples sector.,70.64691219015715,4.689854476042252,85
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Mid Cap company and is in the Energy sector.,69.17156034614965,4.836850337188693,85
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Mid Cap company and is in the Financials sector.,63.46631253345131,5.121864133993416,85
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Mid Cap company and is in the Health Care sector.,72.35034623534293,4.59569053304538,85
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Mid Cap company and is in the Industrials sector.,66.18167740311242,4.995785010813279,75
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Mid Cap company and is in the Materials sector.,65.18681560136662,5.09118181421906,85
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Mid Cap company and is in the Real Estate sector.,65.95599926958842,4.955249222269838,85
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Nano Cap company and is in the Consumer Staples sector.,35.20037527650763,5.226308528998909,20
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Nano Cap company and is in the Energy sector.,31.18194113382652,5.041323026396886,20
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Nano Cap company and is in the Financials sector.,29.627279114640253,5.040357355881041,20
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Nano Cap company and is in the Health Care sector.,34.23584649630728,5.310896253676313,20
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Nano Cap company and is in the Industrials sector.,33.82664643537559,5.227371777451135,20
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Nano Cap company and is in the Materials sector.,31.507587309733363,5.220519450209994,20
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Small Cap company and is in the Communication Services sector.,61.73535225377322,5.296036677989858,85
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Small Cap company and is in the Consumer Discretionary sector.,59.33113826096598,5.3055800403662845,85
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Small Cap company and is in the Consumer Staples sector.,65.06129792418643,5.032310432898942,85
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Small Cap company and is in the Energy sector.,61.365309448249576,5.248122143101731,85
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Small Cap company and is in the Financials sector.,54.60655341555566,5.384898443887791,45
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Small Cap company and is in the Health Care sector.,65.14175095506013,5.0943342551979836,85
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Small Cap company and is in the Industrials sector.,58.70381362936851,5.297648950820978,85
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Small Cap company and is in the Information Technology sector.,66.1554916274004,5.077722717669229,85
+"['continent', 'market_cap', 'sector']",The stock is in Africa and is a Small Cap company and is in the Materials sector.,56.98852551371156,5.392867863661453,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Large Cap company and is in the Communication Services sector.,77.11368909898279,4.153761708136661,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Large Cap company and is in the Consumer Discretionary sector.,77.21687374088374,4.0976048814516695,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Large Cap company and is in the Consumer Staples sector.,78.14466867567836,3.8933617408392567,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Large Cap company and is in the Energy sector.,73.28053219816165,4.491661850768795,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Large Cap company and is in the Financials sector.,73.68827454067042,4.458628088418261,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Large Cap company and is in the Health Care sector.,78.44657325583063,3.90264008973954,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Large Cap company and is in the Industrials sector.,75.46184143538308,4.286215255492979,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Large Cap company and is in the Information Technology sector.,79.6449446683924,3.7364402458110635,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Large Cap company and is in the Materials sector.,74.46914655601583,4.4263545545317395,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Large Cap company and is in the Real Estate sector.,71.79626166411073,4.560677783467021,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Large Cap company and is in the Utilities sector.,71.35606646758153,4.554459448595827,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Mega Cap company and is in the Communication Services sector.,77.62784912311837,4.253188803803753,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Mega Cap company and is in the Consumer Discretionary sector.,77.57024040312788,4.142868748926573,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Mega Cap company and is in the Consumer Staples sector.,78.54369183243045,3.944863738622003,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Mega Cap company and is in the Energy sector.,67.70786568105162,5.006103661240272,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Mega Cap company and is in the Financials sector.,70.93541506697738,4.78667768695549,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Mega Cap company and is in the Industrials sector.,75.23203740264984,4.417833486906446,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Mega Cap company and is in the Information Technology sector.,79.3809924440896,3.9507010132939073,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Micro Cap company and is in the Communication Services sector.,52.071126975283036,5.575263627724615,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Micro Cap company and is in the Consumer Discretionary sector.,48.90866376096596,5.5072277848553055,45
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Micro Cap company and is in the Consumer Staples sector.,55.59602724531914,5.414649397574604,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Micro Cap company and is in the Energy sector.,48.620992698026136,5.4939637859989725,20
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Micro Cap company and is in the Financials sector.,45.09849693685309,5.490478019714613,20
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Micro Cap company and is in the Health Care sector.,54.21771856134921,5.487769019751134,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Micro Cap company and is in the Industrials sector.,48.85462474080583,5.471881458374714,45
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Micro Cap company and is in the Information Technology sector.,54.26716391486394,5.495777112628426,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Micro Cap company and is in the Materials sector.,46.92024280496879,5.515640235166155,20
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Micro Cap company and is in the Real Estate sector.,44.508943352076514,5.40488774147054,20
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Micro Cap company and is in the Utilities sector.,47.805395927423696,5.450965061891632,20
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Mid Cap company and is in the Communication Services sector.,71.62639262711106,4.730016856540762,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Mid Cap company and is in the Consumer Discretionary sector.,71.637191766166,4.646940065474739,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Mid Cap company and is in the Consumer Staples sector.,73.44008638463707,4.46439449270813,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Mid Cap company and is in the Energy sector.,70.2426991338826,4.775420286472823,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Mid Cap company and is in the Financials sector.,68.13831420211231,4.900419739106256,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Mid Cap company and is in the Health Care sector.,75.06574405335918,4.344827551232542,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Mid Cap company and is in the Industrials sector.,70.08695944985581,4.7373874144452826,72
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Mid Cap company and is in the Information Technology sector.,75.38306364713615,4.321300350754713,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Mid Cap company and is in the Materials sector.,69.38600573201477,4.835191942154179,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Mid Cap company and is in the Real Estate sector.,67.66784619749382,4.863437208249764,75
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Mid Cap company and is in the Utilities sector.,68.17614427922837,4.869461699518024,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Nano Cap company and is in the Communication Services sector.,40.75809420030206,5.641738454926729,20
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Nano Cap company and is in the Consumer Discretionary sector.,36.304675795418945,5.343466849185505,20
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Nano Cap company and is in the Consumer Staples sector.,43.816583925681584,5.499365180275952,20
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Nano Cap company and is in the Energy sector.,34.32194900742936,5.215555147544528,20
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Nano Cap company and is in the Financials sector.,32.74210257023727,5.2160965243689175,20
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Nano Cap company and is in the Health Care sector.,40.99107885633536,5.551668186563047,20
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Nano Cap company and is in the Industrials sector.,38.47295637507671,5.425819237598125,20
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Nano Cap company and is in the Information Technology sector.,40.39043545685303,5.577024048854348,20
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Nano Cap company and is in the Materials sector.,36.86866769342568,5.475360678176027,20
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Nano Cap company and is in the Real Estate sector.,32.74629383946206,5.097422920878793,20
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Nano Cap company and is in the Utilities sector.,37.494754852723126,5.362943200793749,20
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Small Cap company and is in the Communication Services sector.,65.76294656133848,5.14652148492708,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Small Cap company and is in the Consumer Discretionary sector.,64.60745927331033,5.1471395685832215,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Small Cap company and is in the Consumer Staples sector.,68.25799270380752,4.882936601400915,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Small Cap company and is in the Energy sector.,63.177686456456264,5.19689011901407,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Small Cap company and is in the Financials sector.,59.33394146914658,5.3210858771985405,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Small Cap company and is in the Health Care sector.,68.9330198716884,4.916491103974391,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Small Cap company and is in the Industrials sector.,62.38133958768143,5.188167418736816,75
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Small Cap company and is in the Information Technology sector.,70.86199847736297,4.79877342619647,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Small Cap company and is in the Materials sector.,61.44185464915476,5.285279385000467,85
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Small Cap company and is in the Real Estate sector.,58.75047932193075,5.286315530957219,45
+"['continent', 'market_cap', 'sector']",The stock is in Asia and is a Small Cap company and is in the Utilities sector.,59.36619504559447,5.273749423891732,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Large Cap company and is in the Communication Services sector.,77.90818149226222,4.044837194011217,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Large Cap company and is in the Consumer Discretionary sector.,77.02117743175191,4.124355423367073,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Large Cap company and is in the Consumer Staples sector.,78.0955395591759,3.8931432085271664,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Large Cap company and is in the Energy sector.,72.03419928511421,4.572465405909579,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Large Cap company and is in the Financials sector.,73.01949020259822,4.533439673658364,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Large Cap company and is in the Health Care sector.,78.97108373906215,3.8167888438118336,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Large Cap company and is in the Industrials sector.,75.73112845559572,4.253763567689402,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Large Cap company and is in the Information Technology sector.,79.73763334520774,3.730491298943095,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Large Cap company and is in the Materials sector.,74.38645539241836,4.457060932022676,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Large Cap company and is in the Real Estate sector.,70.74218031294687,4.655062280014449,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Large Cap company and is in the Utilities sector.,71.253852397478,4.548807960602127,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Mega Cap company and is in the Consumer Discretionary sector.,78.15976384972846,4.036017592909831,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Mega Cap company and is in the Consumer Staples sector.,78.87934998187126,3.878890092218328,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Mega Cap company and is in the Energy sector.,67.16506486022915,4.982584294099543,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Mega Cap company and is in the Financials sector.,71.21068601492682,4.746291928684331,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Mega Cap company and is in the Health Care sector.,79.74976922536884,3.8198859918733126,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Mega Cap company and is in the Industrials sector.,76.29719025671683,4.267105745268261,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Mega Cap company and is in the Information Technology sector.,80.42236337355138,3.739691009176328,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Micro Cap company and is in the Communication Services sector.,51.631917289599784,5.615278814776402,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Micro Cap company and is in the Consumer Discretionary sector.,48.17949189270255,5.5352042707282925,45
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Micro Cap company and is in the Consumer Staples sector.,54.532852939220355,5.469605273789491,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Micro Cap company and is in the Energy sector.,46.94509578313279,5.506871759697853,20
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Micro Cap company and is in the Financials sector.,44.609306970316595,5.520240085592302,20
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Micro Cap company and is in the Health Care sector.,54.295538239646376,5.515674265276259,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Micro Cap company and is in the Industrials sector.,49.2796817872269,5.506214717737827,45
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Micro Cap company and is in the Information Technology sector.,53.341273334304105,5.535797510689534,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Micro Cap company and is in the Materials sector.,46.654015307476854,5.5445705337617825,20
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Micro Cap company and is in the Real Estate sector.,43.980395765550355,5.44367696372614,20
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Micro Cap company and is in the Utilities sector.,48.95790002302446,5.491607622099088,20
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Mid Cap company and is in the Communication Services sector.,72.44132224716367,4.67617630795953,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Mid Cap company and is in the Consumer Discretionary sector.,71.76823124424153,4.6372012428182945,73
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Mid Cap company and is in the Consumer Staples sector.,73.62444359402629,4.460400259773192,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Mid Cap company and is in the Energy sector.,69.01948954822753,4.868582629508252,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Mid Cap company and is in the Financials sector.,68.52392839591697,4.904895713544851,73
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Mid Cap company and is in the Health Care sector.,75.8257471222618,4.266934370802024,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Mid Cap company and is in the Industrials sector.,70.76317685546931,4.686272189066168,73
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Mid Cap company and is in the Information Technology sector.,75.40714045637472,4.336039312580156,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Mid Cap company and is in the Materials sector.,69.93336081872076,4.811067516051622,73
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Mid Cap company and is in the Real Estate sector.,67.7944421757673,4.882386132010511,73
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Mid Cap company and is in the Utilities sector.,69.23001204604051,4.818851285788086,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Nano Cap company and is in the Communication Services sector.,39.06815261623395,5.656995325395589,20
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Nano Cap company and is in the Consumer Discretionary sector.,34.833567244185076,5.332892351039992,20
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Nano Cap company and is in the Consumer Staples sector.,40.875052850152684,5.47457883980667,20
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Nano Cap company and is in the Energy sector.,33.98865931167509,5.216808428162639,20
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Nano Cap company and is in the Financials sector.,32.45585877492385,5.240332582655081,20
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Nano Cap company and is in the Health Care sector.,39.40723166934635,5.554390295465243,20
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Nano Cap company and is in the Industrials sector.,37.722955914483016,5.4384210652968905,20
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Nano Cap company and is in the Information Technology sector.,38.46483081533979,5.56973593631714,20
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Nano Cap company and is in the Materials sector.,35.58835881888397,5.475263659462173,20
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Nano Cap company and is in the Real Estate sector.,32.56540944115687,5.167623004053703,20
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Nano Cap company and is in the Utilities sector.,37.44650165104687,5.376981904902411,20
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Small Cap company and is in the Communication Services sector.,66.11059552106593,5.157393646653471,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Small Cap company and is in the Consumer Discretionary sector.,64.20939374036129,5.184670662835873,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Small Cap company and is in the Consumer Staples sector.,67.99867685901624,4.935216552894796,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Small Cap company and is in the Energy sector.,61.6834330544545,5.279867587662469,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Small Cap company and is in the Financials sector.,59.313925440531506,5.361519136648974,73
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Small Cap company and is in the Health Care sector.,69.77990153225727,4.881157131341445,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Small Cap company and is in the Industrials sector.,62.92486551976943,5.188033098386938,73
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Small Cap company and is in the Information Technology sector.,70.2974252421764,4.86355288148544,85
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Small Cap company and is in the Materials sector.,61.229470568651074,5.322146049771213,73
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Small Cap company and is in the Real Estate sector.,57.97853490410201,5.345007957639649,73
+"['continent', 'market_cap', 'sector']",The stock is in Europe and is a Small Cap company and is in the Utilities sector.,60.88847104359824,5.254114714550887,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Large Cap company and is in the Communication Services sector.,79.07299586411476,3.8979856131139514,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Large Cap company and is in the Consumer Discretionary sector.,78.30817030173009,3.9635474909251474,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Large Cap company and is in the Consumer Staples sector.,79.11596054252716,3.7490825538477766,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Large Cap company and is in the Energy sector.,73.74874514932371,4.468826036472898,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Large Cap company and is in the Financials sector.,74.28920067359029,4.449555873208742,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Large Cap company and is in the Health Care sector.,79.8678628037503,3.7073192007205775,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Large Cap company and is in the Industrials sector.,76.6028984186762,4.1601318654205475,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Large Cap company and is in the Information Technology sector.,80.99451795538735,3.529206416171942,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Large Cap company and is in the Materials sector.,76.08521605149076,4.289385693101626,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Large Cap company and is in the Real Estate sector.,73.18408424816761,4.484763407648563,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Large Cap company and is in the Utilities sector.,71.20251826336902,4.606543608579258,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Mega Cap company and is in the Communication Services sector.,80.30665109931265,3.8651223982139267,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Mega Cap company and is in the Consumer Discretionary sector.,79.74638618430644,3.793742623689626,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Mega Cap company and is in the Consumer Staples sector.,80.06890026801952,3.6909173262065225,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Mega Cap company and is in the Energy sector.,68.87967549310649,4.936573299129247,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Mega Cap company and is in the Financials sector.,72.95308063757471,4.605878290308033,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Mega Cap company and is in the Health Care sector.,80.29194549439812,3.7784261178572343,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Mega Cap company and is in the Industrials sector.,77.37753763249435,4.157134229908602,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Mega Cap company and is in the Information Technology sector.,80.95695143881511,3.687253253193902,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Mega Cap company and is in the Utilities sector.,72.64327601674951,4.590749126956248,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Micro Cap company and is in the Communication Services sector.,56.39963163558007,5.606826974249757,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Micro Cap company and is in the Consumer Discretionary sector.,52.26661051574129,5.598424077507858,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Micro Cap company and is in the Consumer Staples sector.,58.74514683893222,5.439623389309002,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Micro Cap company and is in the Energy sector.,55.488368365446256,5.532017284732154,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Micro Cap company and is in the Financials sector.,47.915478229097765,5.627402472012733,45
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Micro Cap company and is in the Health Care sector.,57.494387895475334,5.516740076168839,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Micro Cap company and is in the Industrials sector.,51.59923329857691,5.5753889746884875,45
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Micro Cap company and is in the Information Technology sector.,57.68134798419547,5.519755008037487,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Micro Cap company and is in the Materials sector.,50.965606053626125,5.625885598089677,45
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Micro Cap company and is in the Real Estate sector.,47.807483761589125,5.576479106685547,20
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Micro Cap company and is in the Utilities sector.,51.11577559286036,5.582586044667338,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Mid Cap company and is in the Communication Services sector.,74.70411294410526,4.4855277962994995,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Mid Cap company and is in the Consumer Discretionary sector.,73.92912377963324,4.447716939976348,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Mid Cap company and is in the Consumer Staples sector.,75.24615677733352,4.314363202086393,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Mid Cap company and is in the Energy sector.,72.7988950515935,4.613625924877379,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Mid Cap company and is in the Financials sector.,70.45537387828564,4.792483984705232,73
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Mid Cap company and is in the Health Care sector.,76.59983327165382,4.200948554022585,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Mid Cap company and is in the Industrials sector.,72.45902435470323,4.55909483230211,73
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Mid Cap company and is in the Information Technology sector.,76.99922469909768,4.156888433171411,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Mid Cap company and is in the Materials sector.,72.18702621084715,4.639580440710806,73
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Mid Cap company and is in the Real Estate sector.,70.91547404262519,4.694830594292673,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Mid Cap company and is in the Utilities sector.,70.40731070983566,4.778908508524388,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Nano Cap company and is in the Communication Services sector.,45.20651648541747,5.803536950451077,20
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Nano Cap company and is in the Consumer Discretionary sector.,40.459475214992636,5.624379890599682,20
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Nano Cap company and is in the Consumer Staples sector.,46.71261469036368,5.61997480929575,20
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Nano Cap company and is in the Energy sector.,40.183026117122125,5.564291196645623,20
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Nano Cap company and is in the Financials sector.,35.56555255849341,5.473785638841358,20
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Nano Cap company and is in the Health Care sector.,46.76831989539912,5.7449353592356625,20
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Nano Cap company and is in the Industrials sector.,43.344954150845666,5.664946128021593,20
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Nano Cap company and is in the Information Technology sector.,44.68605788063277,5.757253484463855,20
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Nano Cap company and is in the Materials sector.,41.8696713066581,5.716894758189199,20
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Nano Cap company and is in the Real Estate sector.,36.49735254353335,5.46371425949859,20
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Nano Cap company and is in the Utilities sector.,42.26665288260254,5.610635198001547,20
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Small Cap company and is in the Communication Services sector.,72.18624623377656,4.782611620593664,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Small Cap company and is in the Consumer Discretionary sector.,70.64870326788781,4.84750311834045,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Small Cap company and is in the Consumer Staples sector.,72.8451498395427,4.601844733855429,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Small Cap company and is in the Energy sector.,72.68080664918085,4.668600793263807,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Small Cap company and is in the Financials sector.,65.20580026867665,5.181022473701062,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Small Cap company and is in the Health Care sector.,74.31098752919854,4.530590424569573,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Small Cap company and is in the Industrials sector.,68.1446341693956,4.982893360857078,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Small Cap company and is in the Information Technology sector.,75.09086156927127,4.455536028426061,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Small Cap company and is in the Materials sector.,68.06913765062379,5.024968310965583,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Small Cap company and is in the Real Estate sector.,66.09438380107657,5.094516486130832,85
+"['continent', 'market_cap', 'sector']",The stock is in North America and is a Small Cap company and is in the Utilities sector.,64.9175842481077,5.154532002357313,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Large Cap company and is in the Communication Services sector.,76.62714031596738,4.245647792906913,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Large Cap company and is in the Consumer Discretionary sector.,76.76162871167084,4.185027862382539,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Large Cap company and is in the Consumer Staples sector.,77.56204560497474,3.964362682252655,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Large Cap company and is in the Energy sector.,73.38977945491116,4.5030679401602125,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Large Cap company and is in the Financials sector.,72.45631054397687,4.6036979029966,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Large Cap company and is in the Health Care sector.,77.39575056259184,4.074093641391882,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Large Cap company and is in the Industrials sector.,75.95211762388935,4.265695199432119,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Large Cap company and is in the Information Technology sector.,78.74673224702508,3.9482156237184607,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Large Cap company and is in the Materials sector.,74.51932627081814,4.444336862917608,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Large Cap company and is in the Real Estate sector.,72.1642121093577,4.5760508303932115,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Large Cap company and is in the Utilities sector.,72.44725982619013,4.538512613942787,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Micro Cap company and is in the Communication Services sector.,55.31898697246383,5.560534079770986,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Micro Cap company and is in the Consumer Discretionary sector.,51.821967182883284,5.554042167036429,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Micro Cap company and is in the Consumer Staples sector.,58.033815060910385,5.383899398149631,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Micro Cap company and is in the Energy sector.,48.78626972436225,5.51648377232203,20
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Micro Cap company and is in the Financials sector.,45.50003418807855,5.533945093205187,20
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Micro Cap company and is in the Health Care sector.,55.955130971489076,5.504874768164206,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Micro Cap company and is in the Industrials sector.,51.00838962701758,5.552240703188688,45
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Micro Cap company and is in the Information Technology sector.,56.012097567108015,5.519004117209035,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Micro Cap company and is in the Materials sector.,49.84768793697986,5.561999924254261,20
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Micro Cap company and is in the Real Estate sector.,46.28098844805518,5.4685939031385935,20
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Micro Cap company and is in the Utilities sector.,50.47137897013937,5.477140538000522,20
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Mid Cap company and is in the Communication Services sector.,71.5530341583621,4.769566437333565,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Mid Cap company and is in the Consumer Discretionary sector.,71.8790684522002,4.6796920160498665,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Mid Cap company and is in the Consumer Staples sector.,73.18947071987802,4.503921056781006,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Mid Cap company and is in the Energy sector.,70.2242771180922,4.808067186634379,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Mid Cap company and is in the Financials sector.,67.21510202423595,4.97944552960855,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Mid Cap company and is in the Health Care sector.,73.87733004439093,4.495859484478593,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Mid Cap company and is in the Industrials sector.,70.39095273564708,4.764888499269311,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Mid Cap company and is in the Information Technology sector.,74.39710103493553,4.47538330909999,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Mid Cap company and is in the Materials sector.,69.43474123476456,4.867644175964749,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Mid Cap company and is in the Real Estate sector.,68.3839230974389,4.8657903980877775,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Mid Cap company and is in the Utilities sector.,68.78377595950225,4.861261997275971,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Nano Cap company and is in the Communication Services sector.,41.48959911258596,5.64785952245615,20
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Nano Cap company and is in the Consumer Discretionary sector.,38.342390719019626,5.4807917521322675,20
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Nano Cap company and is in the Consumer Staples sector.,43.59892883818404,5.478494529392531,20
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Nano Cap company and is in the Energy sector.,34.33015223812578,5.2161123462712355,20
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Nano Cap company and is in the Financials sector.,33.79608630954153,5.292164237853803,20
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Nano Cap company and is in the Health Care sector.,41.60623251455331,5.596780526302824,20
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Nano Cap company and is in the Industrials sector.,38.91775635879195,5.50472668245832,20
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Nano Cap company and is in the Information Technology sector.,40.51114453195374,5.5931810622461,20
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Nano Cap company and is in the Materials sector.,37.66767797037213,5.492814354835344,20
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Nano Cap company and is in the Real Estate sector.,33.748513693091226,5.190940044353483,20
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Nano Cap company and is in the Utilities sector.,38.20373686714074,5.3866208453332405,20
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Small Cap company and is in the Communication Services sector.,68.44241844920252,5.017441367349973,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Small Cap company and is in the Consumer Discretionary sector.,67.77440620234186,5.0187771390658416,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Small Cap company and is in the Consumer Staples sector.,70.38018156045693,4.743854611112015,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Small Cap company and is in the Energy sector.,66.05133256015814,5.091247991633393,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Small Cap company and is in the Financials sector.,60.56662220319134,5.309055828117761,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Small Cap company and is in the Health Care sector.,70.38899723191676,4.835822470498957,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Small Cap company and is in the Industrials sector.,65.9021220571971,5.0969456411760135,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Small Cap company and is in the Information Technology sector.,71.70102855731848,4.76205640964499,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Small Cap company and is in the Materials sector.,64.89802542283995,5.15965539412619,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Small Cap company and is in the Real Estate sector.,62.6347196222599,5.189325365911013,85
+"['continent', 'market_cap', 'sector']",The stock is in Oceania and is a Small Cap company and is in the Utilities sector.,63.28225412416474,5.154608233167875,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Large Cap company and is in the Communication Services sector.,75.93419579814217,4.267254687906452,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Large Cap company and is in the Consumer Discretionary sector.,76.51993404294643,4.149617715182031,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Large Cap company and is in the Consumer Staples sector.,77.76331814176037,3.88125078910604,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Large Cap company and is in the Energy sector.,76.07183524950771,4.163805092604277,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Large Cap company and is in the Financials sector.,71.94340676805753,4.554154482149579,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Large Cap company and is in the Health Care sector.,77.33424221136202,4.046096964512564,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Large Cap company and is in the Industrials sector.,74.73721490387531,4.3237056033932815,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Large Cap company and is in the Information Technology sector.,78.0826885763387,3.9913958976452864,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Large Cap company and is in the Materials sector.,74.16704700916361,4.431409880334012,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Large Cap company and is in the Utilities sector.,73.17964267534242,4.4405775346021334,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Micro Cap company and is in the Communication Services sector.,50.307968295111216,5.553162046983004,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Micro Cap company and is in the Consumer Discretionary sector.,46.491814982182206,5.478587363606422,20
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Micro Cap company and is in the Consumer Staples sector.,54.33869612446167,5.403657477008721,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Micro Cap company and is in the Energy sector.,47.48949209009001,5.481023820330207,20
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Micro Cap company and is in the Financials sector.,41.92527533390943,5.377002923231259,20
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Micro Cap company and is in the Health Care sector.,50.162282092741094,5.518501650833962,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Micro Cap company and is in the Industrials sector.,46.79545543137,5.459196064021862,20
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Micro Cap company and is in the Information Technology sector.,48.92842470950809,5.52847724089065,20
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Micro Cap company and is in the Materials sector.,45.26202826180179,5.499297003214951,20
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Micro Cap company and is in the Real Estate sector.,42.78959858045029,5.340574943092088,20
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Micro Cap company and is in the Utilities sector.,47.246058990101865,5.447866729909759,20
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Mid Cap company and is in the Communication Services sector.,70.06669100810339,4.857297703280607,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Mid Cap company and is in the Consumer Discretionary sector.,70.1070024238936,4.806426009127493,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Mid Cap company and is in the Consumer Staples sector.,72.43063947343174,4.570014493283133,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Mid Cap company and is in the Energy sector.,71.16165114173688,4.7324331367032855,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Mid Cap company and is in the Financials sector.,65.05124651014548,5.066551808542146,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Mid Cap company and is in the Health Care sector.,72.86216611939624,4.589488208738935,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Mid Cap company and is in the Industrials sector.,68.32998320336102,4.890163162717131,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Mid Cap company and is in the Information Technology sector.,72.9006622007836,4.61301514070277,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Mid Cap company and is in the Materials sector.,67.76566035282174,4.971504697200514,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Mid Cap company and is in the Real Estate sector.,67.14046251438694,4.93482297757736,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Mid Cap company and is in the Utilities sector.,67.09234304855148,4.974376887874475,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Nano Cap company and is in the Communication Services sector.,39.00466527809427,5.528493090906404,20
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Nano Cap company and is in the Consumer Discretionary sector.,35.68503654503347,5.3103171838921694,20
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Nano Cap company and is in the Consumer Staples sector.,41.65522115482582,5.403012361064501,20
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Nano Cap company and is in the Energy sector.,35.31923822584054,5.23800281199998,20
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Nano Cap company and is in the Financials sector.,32.903638491082106,5.183964417292979,20
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Nano Cap company and is in the Health Care sector.,38.28727842529586,5.457167046519855,20
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Nano Cap company and is in the Industrials sector.,37.45773374021885,5.38586072672711,20
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Nano Cap company and is in the Information Technology sector.,37.715274248451905,5.469781471095244,20
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Nano Cap company and is in the Materials sector.,35.85337684088379,5.424925708800948,20
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Nano Cap company and is in the Real Estate sector.,33.21455122425959,5.109166469828986,20
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Nano Cap company and is in the Utilities sector.,37.14552891981025,5.345005943087253,20
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Small Cap company and is in the Communication Services sector.,65.25714683901947,5.149255995514733,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Small Cap company and is in the Consumer Discretionary sector.,63.9180256160143,5.168721536010899,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Small Cap company and is in the Consumer Staples sector.,68.678678936268,4.829017758095242,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Small Cap company and is in the Energy sector.,65.62844572269573,5.085802389876057,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Small Cap company and is in the Financials sector.,56.84885379249335,5.348283820146197,45
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Small Cap company and is in the Health Care sector.,67.20605551092063,5.005125107161971,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Small Cap company and is in the Industrials sector.,61.797967076135855,5.213926072079754,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Small Cap company and is in the Information Technology sector.,67.84883135307894,5.000341242411504,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Small Cap company and is in the Materials sector.,61.07151031822362,5.288215356302718,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Small Cap company and is in the Real Estate sector.,58.794131668717235,5.2647019728983375,85
+"['continent', 'market_cap', 'sector']",The stock is in South America and is a Small Cap company and is in the Utilities sector.,60.57390704452031,5.240088188986712,85
