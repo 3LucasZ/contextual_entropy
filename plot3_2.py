@@ -3,68 +3,48 @@ import seaborn as sns
 import pandas as pd
 import json
 
-
+# Load Data 1
 with open('data/exp1.json') as f1:
     results_1 = json.load(f1)
 df1 = pd.DataFrame(list(results_1.items()), columns=['Context', 'Entropy'])
-# df1 = df1.sort_values('Entropy', ascending=False)
+df1['Experiment'] = 'prompt: median'  # Add identifier
 
-with open('data/exp2.json') as f2:
-    results_2 = json.load(f2)
-df2 = pd.DataFrame(list(results_2.items()), columns=['Context', 'Entropy'])
-# df2 = df2.sort_values('Entropy', ascending=False)
-
-with open('data/exp3.json') as f3:
-    results_3 = json.load(f3)
-df3 = pd.DataFrame(list(results_3.items()), columns=['Context', 'Entropy'])
-
+# Load Data 3_2
 with open('data/exp3_2.json') as f3_2:
     results_3_2 = json.load(f3_2)
 df3_2 = pd.DataFrame(list(results_3_2.items()), columns=['Context', 'Entropy'])
+df3_2['Experiment'] = 'prompt: average'  # Add identifier
 
-with open('data/exp4.json') as f4:
-    results_4 = json.load(f4)
-df4 = pd.DataFrame(list(results_4.items()), columns=['Context', 'Entropy'])
+# Combine the DataFrames
+df_combined = pd.concat([df1, df3_2])
 
-# Plot 1
-plt.figure(figsize=(10, 6))
-sns.barplot(data=df1, y='Context', x='Entropy', palette='viridis')
-plt.title('Entropy Reduction from Context Combinations')
+# Optional: Determine sort order based on df1 values for a cleaner plot
+# This ensures contexts are listed in descending order of entropy from Exp 1
+order = df1.sort_values('Entropy', ascending=False)['Context']
+
+# Plot
+plt.figure(figsize=(12, 7))
+sns.barplot(
+    data=df_combined,
+    y='Context',
+    x='Entropy',
+    hue='Experiment',
+    palette='viridis',
+    order=order
+)
+
+plt.title('Entropy Reduction Comparison')
 plt.xlabel('Conditional Entropy')
-plt.axvline(x=results_1["[]"], color='r', linestyle='--', label='No context')
-plt.legend()
-plt.tight_layout()
-plt.savefig("entropy1.jpg")
 
-# Plot 1.2 in another file
+# Add vertical lines for "No context" baselines
+# We use different line styles to distinguish the two baselines
+# if "[]" in results_1:
+#     plt.axvline(x=results_1["[]"], color='purple',
+#                 linestyle='--', alpha=0.7, label='No context (Exp 1)')
+# if "[]" in results_3_2:
+#     plt.axvline(x=results_3_2["[]"], color='teal', linestyle=':',
+#                 linewidth=2.5, alpha=0.9, label='No context (Exp 3_2)')
 
-# Plot 2
-plt.figure(figsize=(10, 6))
-sns.barplot(data=df2, y='Context', x='Entropy', palette='viridis')
-plt.xlim(5)
-plt.title('Experiment 2')
-plt.xlabel('Conditional Entropy')
-plt.axvline(x=results_2["[]"], color='r', linestyle='--', label='Baseline')
-plt.legend()
-plt.tight_layout()
-plt.savefig("entropy2.jpg")
-
-# Plot 3
-plt.figure(figsize=(10, 6))
-sns.barplot(data=df3, y='Context', x='Entropy', palette='viridis')
-plt.title('Entropy Reduction from Context Combinations + perturbed question')
-plt.xlabel('Conditional Entropy')
-plt.axvline(x=results_3["[]"], color='r', linestyle='--', label='No context')
-plt.legend()
-plt.tight_layout()
-plt.savefig("entropy3.jpg")
-
-# Plot 3_2
-plt.figure(figsize=(10, 6))
-sns.barplot(data=df3_2, y='Context', x='Entropy', palette='viridis')
-plt.title('Entropy Reduction from Context Combinations + perturbed question')
-plt.xlabel('Conditional Entropy')
-plt.axvline(x=results_3_2["[]"], color='r', linestyle='--', label='No context')
 plt.legend()
 plt.tight_layout()
 plt.savefig("entropy3_2.jpg")
