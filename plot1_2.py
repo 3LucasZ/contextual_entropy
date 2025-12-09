@@ -26,7 +26,14 @@ def extract_info(row):
     elif trial == "sector":
         group = "Sector"
         match = re.search(r"The stock is in the (.*?) sector\. Will", prompt)
-        strata = match.group(1).replace(" ", "\n") if match else "Unknown"
+        strata = match.group(1) if match else "Unknown"
+        strata = strata.replace(" ", "\n")
+        if "Info" in strata:
+            strata = "Info Tech"
+        if "Discretionary" in strata:
+            strata = "Consumer Disc"
+        if "Communication" in strata:
+            strata = "Comms Services"
     else:
         group = "ERROR"
         strata = "ERROR"
@@ -71,7 +78,7 @@ def generate_combined_plot(df):
         if ax.get_legend():
             ax.get_legend().remove()
 
-        ax.set_title(f"Uncertainty Given {group}")
+        ax.set_title(f"Entropy Reduction Per {group}")
         ax.set_xlabel(group)
 
         # Set Y-label only for the first subplot to reduce clutter
@@ -82,13 +89,13 @@ def generate_combined_plot(df):
 
         # Add numeric labels on top of bars
         for i, v in enumerate(subset["Entropy"]):
-            ax.text(i, v + 0.01, f"{v:.2f}", ha='center', fontsize=9)
+            ax.text(i, v + 0.01, f"{v:.2f}", ha='center')
 
         # Rotate x-axis labels for readability
         ax.tick_params(axis='x', labelrotation=30)
 
     plt.tight_layout()
-    filename = "combined_entropy_plot.jpg"
+    filename = "entropy1_2.jpg"
     plt.savefig(filename)
     print(f"Saved {filename}")
     plt.close()
