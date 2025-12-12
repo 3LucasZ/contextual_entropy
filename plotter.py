@@ -64,8 +64,8 @@ class Plotter:
                 ax.set_ylabel("")
 
             # Add numeric labels on top of bars
-            for i, v in enumerate(subset["Entropy"]):
-                ax.text(i, v + 0.01, f"{v:.2f}", ha='center')
+            # for i, v in enumerate(subset["Entropy"]):
+            #     ax.text(i, v + 0.01, f"{v:.2f}", ha='center')
             ax.tick_params(axis='x', labelrotation=30)
         filename = f"fig/{fout}.pdf"
         plt.gcf().savefig(filename, bbox_inches="tight")

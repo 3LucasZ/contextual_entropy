@@ -11,8 +11,7 @@ import json
 
 
 config = {
-    "model_id": "mlx-community/Meta-Llama-3.1-8B-Instruct-4bit",
-    # "model_id": "mlx-community/Qwen2.5-7B-Instruct-4bit",
+    "model_id": "llama",
     "system": "You are a professional stock analyst and trader. You must only answer with either overperform or underperform.",
     "question": "Will this stock overperform or underperform the median stock over the next 12 months?",
     "token1": "Under",
@@ -27,7 +26,9 @@ config = {
 class Engine:
     def __init__(self, config):
         self.config = config
-        self.model_id = config["model_id"]
+        llama = "mlx-community/Meta-Llama-3.1-8B-Instruct-4bit"
+        qwen = "mlx-community/Qwen2.5-7B-Instruct-4bit"
+        self.model_id = llama if config["model"] == "llama" else qwen
         self.system = config["system"]
         self.question = config["question"]
         self.token1 = config["token1"]
@@ -156,6 +157,7 @@ class Engine:
             for subset_names in itertools.combinations(self.column_names, r):
                 cols = list(subset_names)
                 self.run_trial(cols)
+        self.save()
 
     def run_permutations(self):
         pass
