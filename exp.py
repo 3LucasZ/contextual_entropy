@@ -13,10 +13,14 @@ config = {
     "verbose": True,
     "quick": True,
 }
+plotter = Plotter()
 
 # -- Regular --
 engine = Engine(config)
 engine.run_combinations()
+
+plotter.plot("", "yes_no", "yes_no", False)
+plotter.plot_cat("", "yes_no", "yes_no_cat", False)
 
 # -- Qwen --
 config["model"] = "qwen"
@@ -24,19 +28,5 @@ config["file"] = "yes_no_qwen"
 engine = Engine(config)
 engine.run_combinations()
 
-# -- Qwen Neither --
-# config["model"] = "qwen"
-# config["neither"] = True
-# config["file"] = "yes_no_or_qwen"
-# engine = Engine(config)
-# engine.run_combinations()
-
-plotter = Plotter()
-# plotter.plot("", "yes_no", "yes_no", False)
-# plotter.plot_cat("", "yes_no", "yes_no_cat", False)
-# plotter.plot("", "yes_no_or", "yes_no_or", False)
-# plotter.plot_cat("", "yes_no_or", "yes_no_or_cat", False)
-# plotter.plot("", "yes_no_qwen", "yes_no_qwen", False)
+plotter.plot("", "yes_no_qwen", "yes_no_qwen", False)
 plotter.plot_cat("", "yes_no_qwen", "yes_no_qwen_cat", False)
-# plotter.plot("", "yes_no_or_qwen", "yes_no_or_qwen", False)
-plotter.plot_cat("", "yes_no_or_qwen", "yes_no_or_qwen_cat", False)
