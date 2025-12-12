@@ -13,13 +13,14 @@ model, tokenizer = load(model_id)
 yes_id = tokenizer.encode("Underperform")[0]
 no_id = tokenizer.encode("Overperform")[0]
 
+system = "You are a professional stock analyst and trader. You must only answer with either overperform or underperform."
 question = "Will this stock overperform or underperform the median stock over the next 12 months?"
 
 
 def analyze_llm(prompt, verbose=False):
     messages = [
         {"role": "system",
-            "content": "You are a professional stock analyst and trader. You must only answer with either overperform or underperform."},
+            "content": system},
         {"role": "user", "content": prompt}
     ]
 
