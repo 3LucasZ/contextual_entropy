@@ -1,4 +1,4 @@
-continent,sector,market_cap,probability,ci_lower,ci_upper
+continent,sector,market_cap,probability,lower,upper
 Africa,Communication Services,Large Cap,0.0002441604948319362,0.00013564471935107567,0.00037980521418301186
 Africa,Communication Services,Mid Cap,8.13868316106454e-05,2.7128943870215132e-05,0.00014920919128618324
 Africa,Communication Services,Small Cap,4.06934158053227e-05,0.0,9.495130354575297e-05

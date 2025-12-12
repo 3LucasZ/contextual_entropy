@@ -11,22 +11,22 @@ config = {
     "neither": False,
     "file": "yes_no",
     "verbose": True,
-    "quick": True,
+    "quick": False,
 }
 plotter = Plotter()
 
 # -- Regular --
-engine = Engine(config)
-engine.run_combinations()
+# engine = Engine(config)
+# engine.run_combinations()
 
 plotter.plot("", "yes_no", "yes_no", False)
 plotter.plot_cat("", "yes_no", "yes_no_cat", False)
 
 # -- Qwen --
-config["model"] = "qwen"
-config["file"] = "yes_no_qwen"
-engine = Engine(config)
-engine.run_combinations()
+# config["model"] = "qwen"
+# config["file"] = "yes_no_qwen"
+# engine = Engine(config)
+# engine.run_combinations()
 
 
 plotter.plot("", "yes_no_qwen", "yes_no_qwen", False)

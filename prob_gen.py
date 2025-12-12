@@ -39,8 +39,8 @@ bootstrap_df = pd.concat(bootstrap_results, axis=1)
 # Store point estimate, lower bound, upper bound
 results = pd.DataFrame(index=full_index)
 results['probability'] = original_counts / len(df)
-results['ci_lower'] = bootstrap_df.quantile(alpha / 2, axis=1)
-results['ci_upper'] = bootstrap_df.quantile(1 - (alpha / 2), axis=1)
+results['lower'] = bootstrap_df.quantile(alpha / 2, axis=1)
+results['upper'] = bootstrap_df.quantile(1 - (alpha / 2), axis=1)
 
 # Save
 results.to_csv("prob.csv")

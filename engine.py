@@ -47,7 +47,6 @@ class Engine:
         self.column_names = ["continent", "market_cap", "sector"]
         # store all rows for the final CSV
         self.detailed_logs = []
-        self.out = {}
 
     def analyze_llm(self, prompt):
         messages = [
@@ -98,7 +97,6 @@ class Engine:
         print(f"\n--- Running Control Group ---")
         control_prompt = f"The stock is unknown. {self.question}"
         p_yes, p_no, entropy, reply = self.analyze_llm(control_prompt)
-        self.out["[]"] = entropy
         self.detailed_logs.append({
             "Trial": "[]",
             "Prompt": control_prompt,
@@ -112,7 +110,6 @@ class Engine:
         # Group by the specified columns
         df = self.prob_df[columns + ["probability"]
                           ].groupby(columns).sum().reset_index()
-        weighted_entropy_sum = 0
         trial_name = str(columns)
 
         if self.verbose:
@@ -145,12 +142,6 @@ class Engine:
                 "Reply": reply
             })
 
-            # Calculate weighted entropy for the aggregate JSON
-            prior_prob = row["probability"]
-            weighted_entropy_sum += entropy * prior_prob
-
-        self.out[str(columns)] = weighted_entropy_sum
-
     def run_combinations(self):
         self.run_control()
         for r in range(1, len(self.column_names) + (-1 if self.quick else 1)):
@@ -163,10 +154,6 @@ class Engine:
         pass
 
     def save(self):
-        print(f"Saving {self.file}.json...")
-        with open(f"data/{self.file}.json", "w") as json_file:
-            json.dump(self.out, json_file, indent=4)
-
         print(f"Saving {self.file}.csv...")
         results_df = pd.DataFrame(self.detailed_logs)
         results_df.to_csv(f"data/{self.file}.csv", index=False)
