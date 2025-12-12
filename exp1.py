@@ -13,12 +13,13 @@ model, tokenizer = load(model_id)
 yes_id = tokenizer.encode("Yes")[0]
 no_id = tokenizer.encode("No")[0]
 
+system = "You are a professional stock analyst and trader. Answer Yes or No."
 question = "Will this stock underperform the median stock over the next 12 months?"
 
 
 def analyze_llm(prompt, verbose=False):
     messages = [
-        {"role": "system", "content": "You are a professional stock analyst and trader. Answer Yes or No."},
+        {"role": "system", "content": system},
         {"role": "user", "content": prompt}
     ]
 
@@ -54,6 +55,7 @@ def analyze_llm(prompt, verbose=False):
     )
 
     if verbose:
+        print(prompt)
         print(f"P(Yes): {p_yes:.2%}, P(No): {p_no:.2%}, H: {entropy:.4f}")
         print(f"Reply: {response_text.strip()}")
 
