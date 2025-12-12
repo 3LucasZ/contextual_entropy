@@ -1,0 +1,25 @@
+Trial,Prompt,P_Yes,P_No,Entropy,Reply
+[],The stock is unknown. Will this stock overperform or underperform the median stock over the next 12 months?,0.4882833952958347,0.5117166047041654,0.9996038607786191,Overperform
+['continent'],The stock is in Africa. Will this stock overperform or underperform the median stock over the next 12 months?,0.9073122213606241,0.09268777863937604,0.4453782061643997,Underperform
+['continent'],The stock is in Asia. Will this stock overperform or underperform the median stock over the next 12 months?,0.016152834822140957,0.983847165177859,0.11925716766954611,Overperform
+['continent'],The stock is in Europe. Will this stock overperform or underperform the median stock over the next 12 months?,0.04958902298403175,0.9504109770159683,0.28464858486511924,Overperform
+['continent'],The stock is in North America. Will this stock overperform or underperform the median stock over the next 12 months?,0.00030061635882429376,0.9996993836411757,0.003950780461384897,Overperform
+['continent'],The stock is in Oceania. Will this stock overperform or underperform the median stock over the next 12 months?,0.4073334000459302,0.5926665999540697,0.9750790425362086,Overperform
+['continent'],The stock is in South America. Will this stock overperform or underperform the median stock over the next 12 months?,0.6442251064863697,0.35577489351363034,0.9391200469408325,Underperform
+['market_cap'],The stock is a Large Cap company. Will this stock overperform or underperform the median stock over the next 12 months?,0.00011591934318633098,0.9998840806568136,0.0016828245756357258,Overperform
+['market_cap'],The stock is a Mega Cap company. Will this stock overperform or underperform the median stock over the next 12 months?,6.605214485464791e-05,0.9999339478551454,0.001012492354152816,overperform
+['market_cap'],The stock is a Micro Cap company. Will this stock overperform or underperform the median stock over the next 12 months?,0.994445075296309,0.005554924703691103,0.049609352152452005,Underperform
+['market_cap'],The stock is a Mid Cap company. Will this stock overperform or underperform the median stock over the next 12 months?,0.00019110431587777675,0.9998088956841223,0.002636457789327491,Overperform
+['market_cap'],The stock is a Nano Cap company. Will this stock overperform or underperform the median stock over the next 12 months?,0.021287351793451054,0.9787126482065489,0.14860889812516023,Overperform
+['market_cap'],The stock is a Small Cap company. Will this stock overperform or underperform the median stock over the next 12 months?,0.16885695214168314,0.8311430478583168,0.6550832777385293,Overperform
+['sector'],The stock is in the Communication Services sector. Will this stock overperform or underperform the median stock over the next 12 months?,0.05108273695705249,0.9489172630429474,0.2909786625143455,Overperform
+['sector'],The stock is in the Consumer Discretionary sector. Will this stock overperform or underperform the median stock over the next 12 months?,0.0013885232756900101,0.99861147672431,0.015182010596677715,Overperform
+['sector'],The stock is in the Consumer Staples sector. Will this stock overperform or underperform the median stock over the next 12 months?,0.0041987952714718675,0.9958012047285281,0.039197730825321665,overperform
+['sector'],The stock is in the Energy sector. Will this stock overperform or underperform the median stock over the next 12 months?,0.037892426629607394,0.9621075733703927,0.23254416066107847,Overperform
+['sector'],The stock is in the Financials sector. Will this stock overperform or underperform the median stock over the next 12 months?,0.002590979364429334,0.9974090206355707,0.0259955840474798,Overperform
+['sector'],The stock is in the Health Care sector. Will this stock overperform or underperform the median stock over the next 12 months?,0.003945406806602023,0.9960545931933981,0.03718725629773139,Overperform
+['sector'],The stock is in the Industrials sector. Will this stock overperform or underperform the median stock over the next 12 months?,0.00439941316273649,0.9956005868372635,0.04077371746213532,Overperform
+['sector'],The stock is in the Information Technology sector. Will this stock overperform or underperform the median stock over the next 12 months?,3.883110986877899e-05,0.9999611688901312,0.0006249903852608743,Overperform
+['sector'],The stock is in the Materials sector. Will this stock overperform or underperform the median stock over the next 12 months?,0.037892426629607394,0.9621075733703927,0.23254416066107847,Overperform
+['sector'],The stock is in the Real Estate sector. Will this stock overperform or underperform the median stock over the next 12 months?,0.005819959584259008,0.994180040415741,0.051583837154532464,Overperform
+['sector'],The stock is in the Utilities sector. Will this stock overperform or underperform the median stock over the next 12 months?,0.9263037302939515,0.07369626970604846,0.37956841737513597,Underperform

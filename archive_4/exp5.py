@@ -11,8 +11,8 @@ model, tokenizer = load(model_id)
 quick = True
 
 # token IDs
-yes_id = tokenizer.encode("Underperform")[0]
-no_id = tokenizer.encode("Overperform")[0]
+yes_id = tokenizer.encode("Under")[0]
+no_id = tokenizer.encode("Over")[0]
 
 system = "You are a professional stock analyst and trader. You must only answer with either overperform or underperform."
 question = "Will this stock overperform or underperform the median stock over the next 12 months?"

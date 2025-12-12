@@ -10,8 +10,10 @@ import itertools
 from mlx_lm import load, generate
 
 model_id = "mlx-community/Qwen2.5-7B-Instruct-4bit"
-system = "You are a professional stock analyst and trader. You must answer with only Underperform or Overperform."
-question = "Will this stock underperform or overperform the median stock over the next 12 months?"
+
+system = "You are a professional stock analyst and trader. You must only answer with either overperform or underperform."
+question = "Will this stock overperform or underperform the median stock over the next 12 months?"
+
 token1 = "Under"
 token2 = "Over"
 quick = True
@@ -53,7 +55,8 @@ def analyze_llm(prompt, verbose=False):
     if p_yes == 0 or p_no == 0:
         entropy = 0.0
     else:
-        entropy = -(p_yes * np.log2(p_yes) + p_no * np.log2(p_no))
+        entropy = -(p_yes * np.log2(p_yes) + p_no *
+                    np.log2(p_no) + p_neither * np.log2(p_neither))
 
     #  actual text response
     response_text = generate(

@@ -1,4 +1,6 @@
 import matplotlib.pyplot as plt
+import pandas as pd
+import re
 
 
 def setupPlt():
@@ -58,3 +60,35 @@ color_map = {
 #     # Distinct Purple (3 items)
 #     "['continent', 'market_cap', 'sector']": "#7570b3"
 # }
+
+
+def extract_info(row):
+    trial = row['Trial'][2:-2]
+    prompt = row['Prompt']
+
+    # Identify Group & Strata via Regex
+    if trial == "continent":
+        group = "Continent"
+        match = re.search(r"The stock is in (.*?)\. Will", prompt)
+        strata = match.group(1) if match else "Unknown"
+
+    elif trial == "market_cap":
+        group = "Market Cap"
+        match = re.search(r"The stock is a (.*?) company\. Will", prompt)
+        strata = match.group(1) if match else "Unknown"
+
+    elif trial == "sector":
+        group = "Sector"
+        match = re.search(r"The stock is in the (.*?) sector\. Will", prompt)
+        strata = match.group(1) if match else "Unknown"
+        strata = strata.replace(" ", "\n")
+        if "Info" in strata:
+            strata = "Info Tech"
+        if "Discretionary" in strata:
+            strata = "Consumer Disc"
+        if "Communication" in strata:
+            strata = "Comms Services"
+    else:
+        group = "ERROR"
+        strata = "ERROR"
+    return pd.Series([group, strata])
