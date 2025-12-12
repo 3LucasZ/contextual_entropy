@@ -19,7 +19,7 @@ question = "Will this stock overperform or underperform the median stock over th
 def analyze_llm(prompt, verbose=False):
     messages = [
         {"role": "system",
-            "content": "You are a professional stock analyst and trader. You MUST answer with either overperform or underperform."},
+            "content": "You are a professional stock analyst and trader. You must only answer with either overperform or underperform."},
         {"role": "user", "content": prompt}
     ]
 
