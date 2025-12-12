@@ -134,7 +134,7 @@ if __name__ == "__main__":
 
     # Run Combinations
     column_names = ["continent", "market_cap", "sector"]
-    for r in range(1, len(column_names) + (0 if quick else 1)):
+    for r in range(1, len(column_names) + (-1 if quick else 1)):
         for subset_names in itertools.combinations(column_names, r):
             cols = list(subset_names)
             tot = run_trial(cols, verbose)
