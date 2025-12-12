@@ -25,13 +25,22 @@ class Plotter:
 
         for trial in df['Trial'].unique():
             if trial == "[]":
+                mean = df[df['Trial'] == "[]"]["Entropy"].iloc[0]
+                lower, upper = mean, mean
+                results.append({
+                    "Context": "[]",
+                    "Entropy": mean,
+                    "Lower": lower,
+                    "Upper": upper,
+                    "Error_Min": mean - lower,
+                    "Error_Max": upper - mean
+                })
                 continue
             columns = ast.literal_eval(trial)
             prob_df = self.prob_df[columns + ["probability", "lower", "upper"]
                                    ].groupby(columns).sum().reset_index()
             subset_df = df[df['Trial'] == trial].reset_index()
             res = prob_df.join(subset_df)
-            print(res.head())
             mean = np.sum(res["probability"] * res["Entropy"])
             lower = np.sum(res["lower"] * res["Entropy"])
             upper = np.sum(res["upper"] * res["Entropy"])
@@ -43,19 +52,21 @@ class Plotter:
                 "Error_Min": mean - lower,
                 "Error_Max": upper - mean
             })
+
         res_df = pd.DataFrame(results)
         if sort:
             res_df = res_df.sort_values(
                 "Entropy", ascending=False)
         plt.figure(figsize=(10, 6))
         bar_colors = [color_map.get(x) for x in res_df['Context']]
-        bars = plt.bar(res_df['Context'], res_df['Entropy'],
-                       yerr=[res_df['Error_Min'], res_df['Error_Max']],
-                       capsize=5, color=bar_colors)
+        bars = plt.barh(res_df['Context'], res_df['Entropy'],
+                        xerr=[res_df['Error_Min'], res_df['Error_Max']],
+                        capsize=5, color=bar_colors)
         # clean up labels
         labels = [l.get_text().replace("[", "").replace("]", "").replace("'", "")
-                  for l in plt.gca().get_xticklabels()]
-        plt.gca().set_xticklabels(labels)
+                  for l in plt.gca().get_yticklabels()]
+        plt.gca().set_yticklabels(labels)
+        plt.gca().invert_yaxis()
         plt.title(title)
         plt.xlabel('Conditional Entropy')
         filename = f"fig/{fout}.pdf"
