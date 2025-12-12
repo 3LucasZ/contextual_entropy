@@ -1,5 +1,5 @@
 Trial,Prompt,P_Yes,P_No,Entropy,Reply
-[],The stock is unknown. Will this stock underperform the median stock over the next 12 months?,0.5,0.0.5,0.1,No.
+[],The stock is unknown. Will this stock underperform the median stock over the next 12 months?,0.5,0.5,1.0,No.
 ['continent'],The stock is in Africa. Will this stock underperform the median stock over the next 12 months?,0.6113819732941511,0.38861802670584894,0.9639019191845045,Yes.
 ['continent'],The stock is in Asia. Will this stock underperform the median stock over the next 12 months?,0.31742626558767584,0.682573734412324,0.9015606268141092,No.
 ['continent'],The stock is in Europe. Will this stock underperform the median stock over the next 12 months?,0.29098086621490676,0.7090191337850932,0.8699849277273366,No.

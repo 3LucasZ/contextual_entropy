@@ -3,6 +3,9 @@ import seaborn as sns
 import pandas as pd
 import json
 
+from utils import setupPlt, color_map
+
+setupPlt()
 
 with open('data/exp1.json') as f1:
     results_1 = json.load(f1)
@@ -28,13 +31,12 @@ df4 = pd.DataFrame(list(results_4.items()), columns=['Context', 'Entropy'])
 
 # Plot 1
 plt.figure(figsize=(10, 6))
-sns.barplot(data=df1, y='Context', x='Entropy', palette='viridis')
+sns.barplot(data=df1, y='Context', x='Entropy', palette=color_map)
 plt.title('Entropy Reduction from Context Combinations')
 plt.xlabel('Conditional Entropy')
 plt.axvline(x=results_1["[]"], color='r', linestyle='--', label='No context')
-plt.legend()
-plt.tight_layout()
-plt.savefig("entropy1.jpg")
+# plt.legend()
+plt.gcf().savefig("entropy1.pdf", bbox_inches="tight")
 
 # Plot 1.2 in another file
 

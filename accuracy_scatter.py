@@ -31,7 +31,7 @@ merged_df = pd.merge(llm_df, financial_df, on='Sector Name')
 # Calculate Absolute Percent Change
 # Using '1Y Change' because the prompt asked about the next 12 months.
 # cols = ['1D Change', '1Y Change', 'Market Cap']
-col = '1Y Change'
+col = 'Market Cap'
 
 merged_df['Abs_Change'] = merged_df[f'{col}'].abs()
 
