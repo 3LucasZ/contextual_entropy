@@ -35,11 +35,16 @@ plotter = Plotter()
 # plotter.plot_cat("Qwen",
 #                  "yes_no_qwen", "yes_no_qwen_cat", False)
 
-# -- Mean --
+# -- Mean, Avg --
 # config["question"] = "Will this stock underperform the mean stock over the next 12 months?"
 # config["file"] = "yes_no_mean"
 # engine = Engine(config)
 # engine.run_combinations()
 
-plotter.plot_compare("Asking Mean vs Median", "yes_no",
-                     "yes_no_mean", "yes_no_mean_cmp")
+# config["question"] = "Will this stock underperform the average stock over the next 12 months?"
+# config["file"] = "yes_no_avg"
+# engine = Engine(config)
+# engine.run_combinations()
+
+plotter.plot_compare("Conditional Entropy Differences by Question Wording", [
+                     "yes_no", "yes_no_mean", "yes_no_avg"], ["median", "mean", "average"], "yes_no_cmp")

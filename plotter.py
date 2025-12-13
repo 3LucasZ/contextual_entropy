@@ -152,40 +152,53 @@ class Plotter:
 
         return pd.DataFrame(results)
 
-    def plot_compare(self, title, fin1, fin2, fout):
+    def plot_compare(self, title, fins, labels, fout):
         """
         Plots a side-by-side horizontal bar chart comparing two datasets.
         """
 
-        df1 = self._get_plot_data(fin1)
-        df2 = self._get_plot_data(fin2)
+        dfs = [self._get_plot_data(fin) for fin in fins]
+        for i in range(len(dfs)):
+            dfs[i] = dfs[i].set_index("Context")
+            dfs[i] = dfs[i].add_suffix(f"_{i}")
 
-        merged = pd.merge(df1, df2, on="Context", suffixes=('_1', '_2'))
+        merged = pd.concat(dfs, axis=1, join="inner").reset_index()
 
-        y = np.arange(len(merged))  # the label locations
-        height = 0.35  # the height of the bars
+       # 4. Setup Plot
+        y = np.arange(len(merged))
+        total_height = 0.8          # Total height available for a group
+        bar_height = total_height / len(fins)  # Height of individual bars
 
         plt.figure(figsize=(12, 8))
+        colors = ['tab:blue', 'tab:orange', 'tab:green']  # distinct colors
 
-        # Plot Dataset 1 (Top/Left)
-        plt.barh(y - height/2, merged['Entropy_1'], height,
-                 xerr=[merged['Error_Min_1'], merged['Error_Max_1']],
-                 label=fin1, capsize=5, color='tab:blue', alpha=0.8)
+        for i in range(len(fins)):
+            # Calculate dynamic offset so bars sit side-by-side
+            # This centers the group of bars on the tick
+            offset = (i - len(fins)/2 + 0.5) * bar_height
 
-        # Plot Dataset 2 (Bottom/Right)
-        plt.barh(y + height/2, merged['Entropy_2'], height,
-                 xerr=[merged['Error_Min_2'], merged['Error_Max_2']],
-                 label=fin2, capsize=5, color='tab:orange', alpha=0.8)
+            vals = merged[f'Entropy_{i}']
+            err_min = merged[f'Error_Min_{i}']
+            err_max = merged[f'Error_Max_{i}']
 
-        # Clean up labels
-        clean_labels = [l.replace("[", "").replace("]", "").replace("'", "")
+            plt.barh(y + offset,
+                     vals,
+                     height=bar_height,
+                     xerr=[err_min, err_max],
+                     label=labels[i],
+                     capsize=5,
+                     color=colors[i % len(colors)],  # Cycle colors
+                     alpha=0.8)
+
+        # 5. Clean up labels
+        clean_labels = [str(l).replace("[", "").replace("]", "").replace("'", "")
                         for l in merged['Context']]
 
         plt.yticks(y, clean_labels)
-        plt.gca().invert_yaxis()  # Highest entropy at top
+        plt.gca().invert_yaxis()
         plt.xlabel('Conditional Entropy')
         plt.title(title)
-        plt.legend()  # Add legend to distinguish files
+        plt.legend()
 
         filename = f"fig/{fout}.pdf"
         plt.gcf().savefig(filename, bbox_inches="tight")
