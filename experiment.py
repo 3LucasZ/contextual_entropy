@@ -19,8 +19,9 @@ plotter = Plotter()
 # engine = Engine(config)
 # engine.run_combinations()
 
-plotter.plot("", "yes_no", "yes_no", False)
-plotter.plot_cat("", "yes_no", "yes_no_cat", False)
+# plotter.plot("Entropy Reduction from Context Combinations",
+#              "yes_no", "yes_no", False)
+# plotter.plot_cat("Llama", "yes_no", "yes_no_cat", False)
 
 # -- Qwen --
 # config["model"] = "qwen"
@@ -29,5 +30,16 @@ plotter.plot_cat("", "yes_no", "yes_no_cat", False)
 # engine.run_combinations()
 
 
-plotter.plot("", "yes_no_qwen", "yes_no_qwen", False)
-plotter.plot_cat("", "yes_no_qwen", "yes_no_qwen_cat", False)
+# plotter.plot("Entropy Reduction from Context Combinations",
+#              "yes_no_qwen", "yes_no_qwen", False)
+# plotter.plot_cat("Qwen",
+#                  "yes_no_qwen", "yes_no_qwen_cat", False)
+
+# -- Mean --
+# config["question"] = "Will this stock underperform the mean stock over the next 12 months?"
+# config["file"] = "yes_no_mean"
+# engine = Engine(config)
+# engine.run_combinations()
+
+plotter.plot_compare("Asking Mean vs Median", "yes_no",
+                     "yes_no_mean", "yes_no_mean_cmp")

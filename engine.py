@@ -87,6 +87,7 @@ class Engine:
         #     verbose=False
         # )
         if self.verbose:
+            print(prompt)
             print(
                 f"P({self.token1}): {p_yes:.2%}, P({self.token2}): {p_no:.2%}, P(neither): {p_neither:.2%}, H: {entropy:.4f}")
             # print(f"Reply: {self.response_text.strip()}")
