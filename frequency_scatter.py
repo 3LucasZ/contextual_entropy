@@ -1,10 +1,12 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import numpy as np
+from utils import setupPlt
 
-
+setupPlt()
 financial_df = pd.read_csv('data/sector.csv')
-llm_df = pd.read_csv('data/exp1.csv')
+llm_df = pd.read_csv('data/yes_no.csv')
 llm_df = llm_df[llm_df["Trial"] == "['sector']"]
 
 # ---------------------------------------------------------
@@ -28,10 +30,17 @@ llm_df['Sector Name'] = llm_df['Prompt'].apply(get_sector)
 # Merge the datasets on 'Sector Name'
 merged_df = pd.merge(llm_df, financial_df, on='Sector Name')
 
+probs = pd.read_csv("data/prob.csv")
+probs = probs[["sector", "probability"]].groupby("sector").agg(sum)
+merged_df = pd.merge(
+    merged_df, probs, left_on="Sector Name", right_on="sector")
+print(merged_df.head())
+
 # Calculate Absolute Percent Change
 # Using '1Y Change' because the prompt asked about the next 12 months.
 # cols = ['1D Change', '1Y Change', 'Market Cap']
-col = 'Market Cap'
+# col = 'Market Cap'
+col = "probability"
 
 merged_df['Abs_Change'] = merged_df[f'{col}'].abs()
 
@@ -48,14 +57,14 @@ sns.scatterplot(
 )
 
 # Labeling
-plt.title(f'Model Entropy vs. Absolute Magnitude of {col} for sectors')
+plt.title(f'Model Entropy vs. Sector Proportion')
 plt.xlabel('Conditional Entropy (Uncertainty)')
-plt.ylabel(f'Absolute {col} (Accuracy)')
+plt.ylabel(f'Proportion of Stocks (Available Data)')
 plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')  # Move legend outside
 plt.grid(True, linestyle='--', alpha=0.5)
 
 plt.tight_layout()
-plt.savefig("accuracy_scatter.jpg")
+plt.gcf().savefig("fig/frequency_scatter.pdf", bbox_inches="tight")
 
 correlation = merged_df['Entropy'].corr(merged_df['Abs_Change'])
 print(f"Correlation between Entropy and Absolute {col}: {correlation:.4f}")
